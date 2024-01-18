@@ -1,0 +1,54 @@
+.infinite-scroll-ul> li >div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+}
+
+.infinite-scroll {
+  overflow: hidden;
+  background-color: #2E8B57;
+}
+.infinte-scroll-div
+{
+  width: 100%;
+}
+article {
+  display: flex;
+  width: 180%;
+  animation: bannermove 20s linear infinite;
+}
+
+article.paused {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+
+.infinite-scroll-ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.infinite-scroll-ul li {
+  width: 100%;
+}
+
+/* .infinite-scroll-ul li:nth-child(2) {
+  background: rgba(221, 221, 221, 0.318);
+}
+
+.infinite-scroll-ul li:nth-child(3) {
+  background: rgba(151, 151, 151, 0.36);
+} */
+
+@keyframes bannermove {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
