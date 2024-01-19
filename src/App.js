@@ -9,9 +9,17 @@ import Contact from './pages/Contact/Contact.js'
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import Devwing from './pages/Devwing/Devwing';
+import RegisterAlumini from './pages/Register1/RegisterAlumini.js';
+import RegisterStudent from './pages/Register1/RegisterStudents.js';
+import RegisterStartup from './pages/Register1/RegisterStartup.js';
+import RegisterCompany from './pages/Register1/RegisterCompany.js';
+import RegisterFaculty from './pages/Register1/RegisterFaculty.js';
 export default function App() {
   return (
     <div className="App">
+
+    <RegisterAlumini/>
+    <RegisterStudent/>
       <Header/>
         <Routes>
 
@@ -19,11 +27,15 @@ export default function App() {
           <Route path='/team' element={<Team/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/launchPad' element={<LaunchPad/>}/>
-          <Route path='/register' element={<Register/>}/>
+          <Route path='/RegisterStudent' element={<RegisterStudent/>}/>
+          <Route path='/RegisterAlumini' element={<RegisterAlumini/>}/>
+          <Route path='/RegisterStartup' element={<RegisterStartup/>}/>
+          <Route path='/RegisterCompany' element={<RegisterCompany/>}/>
+          <Route path='/RegisterFaculty' element={<RegisterFaculty/>}/>
           <Route path='/devWing' element={<Devwing/>}/>
 
         </Routes>
-        <Footer/>
+  <Footer/>
     </div>
 
   )
