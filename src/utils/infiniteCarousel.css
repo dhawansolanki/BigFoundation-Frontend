@@ -1,4 +1,4 @@
-.infinite-scroll-ul> li >div {
+.infinite-scroll-ul > li > div {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7,10 +7,15 @@
 
 .infinite-scroll {
   overflow: hidden;
-  background-color: #2E8B57;
+  background: rgb(12, 165, 163);
+  background: linear-gradient(
+    90deg,
+    rgba(12, 165, 163, 1) 0%,
+    rgba(21, 134, 152, 1) 39%,
+    rgba(36, 68, 125, 1) 77%
+  );
 }
-.infinte-scroll-div
-{
+.infinte-scroll-div {
   width: 100%;
 }
 article {
@@ -23,7 +28,6 @@ article.paused {
   -webkit-animation-play-state: paused;
   animation-play-state: paused;
 }
-
 
 .infinite-scroll-ul {
   display: flex;

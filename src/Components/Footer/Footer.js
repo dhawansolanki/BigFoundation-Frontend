@@ -5,7 +5,7 @@ export const Footer = () => {
     <div>
       
       <footer id="footer-wrap-layout1" className="footer-wrap-layout1 bg-color-light">
-            <div className="footer-top-layout1 bg-no-repeat bg-size-cover bg-position-center" data-bg-image="media/element/element3.png">
+            <div className="footer-top-layout1 bg-no-repeat bg-size-cover bg-position-center" data-bg-image="/startup-logos/justvend-logo.png">
               <div className="container">
                 <div className="row">
                   <div className="col-xl-2 col-lg-3 col-md-6 col-12">
