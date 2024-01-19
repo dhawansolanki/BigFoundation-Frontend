@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Carousel from './Carousel'
 export default function Home() {
   return (
     <div>
@@ -17,7 +17,7 @@ export default function Home() {
         </a>
 
         <div id="main_content">
-            <section className="main-banner-wrap-layout1 bg-gradient-layout1 has-animation">
+            {/* <section className="main-banner-wrap-layout1 bg-gradient-layout1 has-animation">
                 <ul className="animated-figure">
                     <li>
                         <div className="translate-left-75 opacity-animation transition-200 transition-delay-10">
@@ -86,7 +86,10 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
+            <div>
+                <Carousel />
+            </div>
             <div className="padding" style={{padding: '50px'}}></div>
             <section className="about-wrap-layout3 has-animation">
                 <div className="animated-shape">
