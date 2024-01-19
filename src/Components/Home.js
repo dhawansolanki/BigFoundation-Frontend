@@ -457,9 +457,7 @@ export default function Home() {
 
                     </div>
                 </div>
-              </div>
-            </div>
-          </section>
+            </section>
             {/* todo is I have to update the styling of the cards and the size of the buttons should be same and "Load more" button when clicked it goes to /events*/}
           <LatestEvents/>
           <section className="feature-wrap-layout1">
