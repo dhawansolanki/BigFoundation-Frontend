@@ -114,10 +114,10 @@ export default function Home() {
                                     <li className="animated-figure">
                                         <div className="translate-left-75 opacity-animation transition-200 transition-delay-500">
                                             <div className="mask-image">
-                                                <img src="media/about/about1.jpg" alt="About"/>
-                                                <a className="play-btn popup-youtube" href="https://www.youtube.com/watch?v=xf34GCMVAoY">
+                                                <img src="about_1.png" alt="About"/>
+                                                {/* <a className="play-btn popup-youtube" href="https://www.youtube.com/watch?v=xf34GCMVAoY">
                                                     <div className="item-icon"><i className="fas fa-play"></i></div>
-                                                </a>
+                                                </a> */}
                                             </div>
                                         </div>
                                     </li>
@@ -131,11 +131,14 @@ export default function Home() {
                                         <div className="sub-title">About Us</div>
                                     </div>
                                     <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-1500">
-                                        <h2 className="item-title">Fueling Curious Minds And Providing a Platform to Thrive</h2>
+                                        <h2 className="item-title">Innovating Futures: Cultivating Entrepreneurship and Multidisciplinary Innovation</h2>
                                     </div>
                                     <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-2000">
-                                        <p>CIIE facilitates innovation through research and collaboration by translating domain expertise into products or technologies. We at CIIE foster entrepreneurial spirit and promote start-ups by providing appropriate
-                                            incubation facilities, offering consultancy services and improving industry-institute interaction. </p>
+                                        <p>Our mission at BIG FOUNDATION is to cultivate a vibrant ecosystem of entrepreneurship 
+                                        and multidisciplinary innovation. We are dedicated to supporting the growth and success of 
+                                        entrepreneurs through comprehensive incubation, research, and consultancy. Our approach 
+                                        bridges technology, creativity, and business acumen, transforming visionary ideas into valuable, 
+                                        real-world solutions. </p>
                                     </div>
                                     <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-2500">
                                         <a href="about.html" className="btn-fill btn-gradient">Discover More<i className="flaticon-next"></i></a>
@@ -194,11 +197,12 @@ export default function Home() {
                                         <div className="translate-right-75 transition-150 opacity-animation transition-delay-100">
                                             <div className="d-flex align-items-sm-center">
                                                 <div className="item-icon dodger-blue">
+                                                <img src="about_2.png" alt="About" style={{ borderRadius: '100px' }} />
                                                     <i className="flaticon-list"></i>
                                                 </div>
                                                 <div className="item-content">
-                                                    <h3 className="item-title">Innovate</h3>
-                                                    <p>For students passionate about turning their ideas into action. Sign up to help us help you transform into an Innovator.</p>
+                                                    <h3 className="item-title">Vision</h3>
+                                                    <p>Create products, technologies or processes to address societal needs.</p>
                                                     <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-2500">
                                                         <a href="innovate.html" className="btn-fill btn-gradient">Discover More<i className="flaticon-next"></i></a>
                                                     </div>
@@ -214,11 +218,13 @@ export default function Home() {
                                         <div className="translate-left-75 transition-150 opacity-animation transition-delay-1000">
                                             <div className="d-flex align-items-sm-center flex-xl-row-reverse">
                                                 <div className="item-icon sunset-orange">
+                                                <img src="about_3.png" alt="About" style={{ borderRadius: '100px' }} />
                                                     <i className="flaticon-research"></i>
                                                 </div>
                                                 <div className="item-content">
-                                                    <h3 className="item-title">Incubate</h3>
-                                                    <p>For the budding makers willing to ride the exciting road to become successful entrepreneurs. Sign up for relentless support.</p>
+                                                    <h3 className="item-title">Mission </h3>
+                                                    <p>To create an ecosystem to nurture innovation and entrepreneurship through incubation support, 
+                                                    and facilitation of technology transfer for commercialization by a multidisciplinary approach</p>
                                                     <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-2500">
                                                         <a href="incubate.html" className="btn-fill btn-gradient">Discover More<i className="flaticon-next"></i></a>
                                                     </div>
@@ -234,11 +240,14 @@ export default function Home() {
                                         <div className="translate-right-75 transition-150 opacity-animation transition-delay-2000">
                                             <div className="d-flex align-items-sm-center">
                                                 <div className="item-icon california">
+                                                <img src="about_5.png" alt="About" style={{ borderRadius: '100px' }} />
                                                     <i className="flaticon-list"></i>
                                                 </div>
                                                 <div className="item-content">
-                                                    <h3 className="item-title">Inspire</h3>
-                                                    <p>For industry experts and professionals willing to inspire our incubates. Sign up as mentors to guide young entrepreneurs.</p>
+                                                    <h3 className="item-title">Objectives</h3>
+                                                    <p>Be the platform for innovation, incubation, research, consultancy and entrepreneurship. 
+                                                    To promote “Work Integrated Learning Programs” across disciplines to fortify the culture 
+                                                    of work-life balance amongst students.</p>
                                                     <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-2500">
                                                         <a href="inspire.html" className="btn-fill btn-gradient">Discover More<i className="flaticon-next"></i></a>
                                                     </div>
@@ -269,7 +278,7 @@ export default function Home() {
                 </div>
                 <div className="container">
                     <div className="section-heading heading-dark heading-layout1 has-animation">
-                        <h2 className="heading-main-title" id="facilities">WHAT WE DO</h2>
+                        <h2 className="heading-main-title" id="facilities">FACILITIES</h2>
                         <div className="heading-icon">
                             <svg className="dash-left" width="100" height="20">
 	<g fill="none" strokeWidth="4">
@@ -301,8 +310,8 @@ export default function Home() {
 								{/* <path d="M95.798,66.493 C95.402,67.238 94.989,67.934 94.568,68.608 C92.140,72.492 89.322,75.200 86.228,76.996 C75.718,83.098 62.044,78.694 49.794,74.183 C30.107,66.931 13.369,52.019 4.629,32.917 C0.428,23.737 -1.365,11.491 6.138,4.714 C11.356,0.001 19.072,-0.185 26.172,0.068 C26.493,0.079 26.814,0.090 27.132,0.103 C31.363,0.275 35.595,0.448 39.826,0.620 C45.043,0.833 50.261,1.045 55.479,1.256 C57.205,1.327 58.931,1.397 60.658,1.467 C67.392,1.740 74.374,2.077 80.361,5.160 C89.583,9.908 94.528,20.156 97.310,30.121 C97.438,30.578 97.561,31.039 97.682,31.500 C100.721,43.123 101.423,55.927 95.798,66.493 Z"/>
 							</svg> */}
                                     </div>
-                                    <h3 className="item-title"><a href="service-details.html">Grants Office</a></h3>
-                                    <p>Guidance offered to draft proposals for government grants</p>
+                                    <h3 className="item-title"><a href="service-details.html">Consulting Services</a></h3>
+                                    <p>Expert guidance in business strategy, market analysis, and operational optimization</p>
                                 </div>
                             </div>
                         </div>
@@ -318,7 +327,7 @@ export default function Home() {
 							</svg> */}
                                     </div>
                                     <h3 className="item-title"><a href="service-details.html">Financial Aid</a></h3>
-                                    <p>Aid assistance offered for the development of Proof of Concept
+                                    <p> Accessible funding options to fuel entrepreneurial ventures and innovation
                                     </p>
                                 </div>
                             </div>
@@ -335,7 +344,7 @@ export default function Home() {
 							</svg> */}
                                     </div>
                                     <h3 className="item-title"><a href="service-details.html">Legal Support </a></h3>
-                                    <p>We help with filing Patents, Technology transfer and Agreements/ MoUs
+                                    <p> Comprehensive legal assistance for intellectual property, contracts, and compliance
                                     </p>
                                 </div>
                             </div>
@@ -351,8 +360,8 @@ export default function Home() {
 								<path d="M109.211,58.119 C103.645,68.260 94.581,77.680 82.450,80.249 C73.546,82.134 64.269,80.109 55.400,78.092 C51.907,77.297 48.414,76.503 44.921,75.708 C40.378,74.674 35.835,73.641 31.291,72.607 C25.787,71.354 20.142,70.045 15.508,67.066 C9.647,63.297 8.873,57.835 6.412,52.231 C4.771,48.495 2.992,44.886 1.723,41.136 C0.784,38.357 0.123,35.500 0.013,32.453 C-0.185,27.013 1.715,21.246 5.539,17.213 C7.301,15.355 9.470,13.864 12.033,12.944 C22.467,9.200 34.071,16.001 45.211,14.807 C57.088,13.532 65.756,3.598 77.302,0.763 C89.987,-2.353 103.658,4.415 110.574,14.666 C111.487,16.019 112.287,17.429 112.946,18.888 C113.554,20.235 114.060,21.606 114.479,22.994 C115.652,26.875 116.114,30.898 115.979,34.945 C115.712,42.910 113.146,50.950 109.211,58.119 Z"/>
 							</svg> */}
                                     </div>
-                                    <h3 className="item-title"><a href="service-details.html">Consulting Services</a></h3>
-                                    <p>Networking support and consulting services from our advisors and mentors with diverse experience</p>
+                                    <h3 className="item-title"><a href="service-details.html">Lab and Research Equipment</a></h3>
+                                    <p> State-of-the-art laboratories and tools for cutting-edge scientific exploration</p>
                                     <br/> <br/>
                                 </div>
                             </div>
@@ -368,25 +377,8 @@ export default function Home() {
 								<path d="M104.291,51.828 C98.019,60.839 88.939,65.934 79.675,69.589 C78.703,69.973 77.729,70.339 76.756,70.695 C70.214,73.079 63.555,75.012 56.818,76.487 C52.170,77.504 46.185,79.782 41.377,78.729 C35.709,77.491 29.573,72.385 24.073,66.622 C19.930,62.282 16.148,57.570 13.202,53.858 C9.879,49.670 6.733,45.085 4.332,40.057 C2.705,36.648 1.416,33.039 0.660,29.205 C0.495,28.369 0.363,27.520 0.260,26.664 C-0.809,17.814 1.431,8.213 7.280,3.434 C12.395,-0.743 19.166,-0.569 25.289,1.096 C31.411,2.760 37.332,5.756 43.525,6.802 C50.958,8.057 58.411,6.451 65.704,4.762 C72.997,3.075 80.398,1.296 87.854,2.211 C88.123,2.244 88.392,2.289 88.661,2.332 C95.524,3.379 102.448,7.076 106.734,13.861 C106.943,14.192 107.153,14.521 107.349,14.867 C113.666,26.001 111.221,41.873 104.291,51.828 Z"/>
 							</svg> */}
                                     </div>
-                                    <h3 className="item-title"><a href="service-details.html">Lab & Research Equipment</a></h3>
-                                    <p>Access provided to equipment available in the institute without affecting regular academic activity</p> <br/>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-sm-6 col-12 masonry-item has-animation">
-                            <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-500">
-                                <div className="service-box-layout1">
-                                    <div className="icon-holder icon-bg-turquoise">
-                                        <div className="item-icon icon-color-turquoise">
-                                            <i className="flaticon-dashboard"></i>
-                                        </div>
-                                        {/* <svg className="icon-bg-shape" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="112px" height="81px">
-								<path d="M94.170,75.633 C89.320,80.748 82.081,83.923 75.335,81.794 C69.399,79.922 65.020,74.470 59.599,71.197 C51.098,66.064 40.914,66.687 31.305,66.427 C27.387,66.323 23.278,65.938 19.374,64.964 C15.436,63.982 11.710,62.398 8.596,59.896 C7.227,58.797 5.976,57.524 4.879,56.041 C3.059,53.582 1.896,50.791 1.293,47.862 C-0.404,39.611 2.385,30.251 7.785,24.023 C13.919,16.948 22.510,13.058 31.345,10.292 C33.050,9.757 34.764,9.266 36.470,8.800 C39.687,7.924 42.924,7.120 46.176,6.383 C57.811,3.738 69.652,1.969 81.586,1.107 C82.278,1.057 82.974,1.011 83.672,0.974 C87.959,0.740 92.319,0.840 96.367,2.483 C105.518,6.200 110.819,17.150 111.330,27.451 C112.127,43.538 104.736,64.487 94.170,75.633 Z"/>
-							</svg> */}
-                                    </div>
                                     <h3 className="item-title"><a href="service-details.html">Translation and Transformation</a></h3>
-                                    <p>We provide you a platform to translate your ideas to prototypes and transform them into viable products, along with low volume manufacturing support
-                                    </p>
+                                    <p>Bridging ideas into market-ready products through specialized adaptation services</p> <br/>
                                 </div>
                             </div>
                         </div>
@@ -401,8 +393,24 @@ export default function Home() {
 								<path d="M94.170,75.633 C89.320,80.748 82.081,83.923 75.335,81.794 C69.399,79.922 65.020,74.470 59.599,71.197 C51.098,66.064 40.914,66.687 31.305,66.427 C27.387,66.323 23.278,65.938 19.374,64.964 C15.436,63.982 11.710,62.398 8.596,59.896 C7.227,58.797 5.976,57.524 4.879,56.041 C3.059,53.582 1.896,50.791 1.293,47.862 C-0.404,39.611 2.385,30.251 7.785,24.023 C13.919,16.948 22.510,13.058 31.345,10.292 C33.050,9.757 34.764,9.266 36.470,8.800 C39.687,7.924 42.924,7.120 46.176,6.383 C57.811,3.738 69.652,1.969 81.586,1.107 C82.278,1.057 82.974,1.011 83.672,0.974 C87.959,0.740 92.319,0.840 96.367,2.483 C105.518,6.200 110.819,17.150 111.330,27.451 C112.127,43.538 104.736,64.487 94.170,75.633 Z"/>
 							</svg> */}
                                     </div>
-                                    <h3 className="item-title"><a href="service-details.html">Licensed Software</a></h3>
-                                    <p>Guidance offered towards the usage of Design and Simulation Software
+                                    <h3 className="item-title"><a href="service-details.html">Mentorship Programs</a></h3>
+                                    <p>Personalized guidance from industry experts to navigate business challenges</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-sm-6 col-12 masonry-item has-animation">
+                            <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-500">
+                                <div className="service-box-layout1">
+                                    <div className="icon-holder icon-bg-turquoise">
+                                        <div className="item-icon icon-color-turquoise">
+                                            <i className="flaticon-dashboard"></i>
+                                        </div>
+                                        {/* <svg className="icon-bg-shape" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="112px" height="81px">
+								<path d="M94.170,75.633 C89.320,80.748 82.081,83.923 75.335,81.794 C69.399,79.922 65.020,74.470 59.599,71.197 C51.098,66.064 40.914,66.687 31.305,66.427 C27.387,66.323 23.278,65.938 19.374,64.964 C15.436,63.982 11.710,62.398 8.596,59.896 C7.227,58.797 5.976,57.524 4.879,56.041 C3.059,53.582 1.896,50.791 1.293,47.862 C-0.404,39.611 2.385,30.251 7.785,24.023 C13.919,16.948 22.510,13.058 31.345,10.292 C33.050,9.757 34.764,9.266 36.470,8.800 C39.687,7.924 42.924,7.120 46.176,6.383 C57.811,3.738 69.652,1.969 81.586,1.107 C82.278,1.057 82.974,1.011 83.672,0.974 C87.959,0.740 92.319,0.840 96.367,2.483 C105.518,6.200 110.819,17.150 111.330,27.451 C112.127,43.538 104.736,64.487 94.170,75.633 Z"/>
+							</svg> */}
+                                    </div>
+                                    <h3 className="item-title"><a href="service-details.html">Co-working Spaces</a></h3>
+                                    <p>Collaborative environments fostering creativity and synergy among entrepreneurs
                                     </p> <br/> <br/>
                                 </div>
                             </div>
@@ -418,8 +426,8 @@ export default function Home() {
 								<path d="M94.170,75.633 C89.320,80.748 82.081,83.923 75.335,81.794 C69.399,79.922 65.020,74.470 59.599,71.197 C51.098,66.064 40.914,66.687 31.305,66.427 C27.387,66.323 23.278,65.938 19.374,64.964 C15.436,63.982 11.710,62.398 8.596,59.896 C7.227,58.797 5.976,57.524 4.879,56.041 C3.059,53.582 1.896,50.791 1.293,47.862 C-0.404,39.611 2.385,30.251 7.785,24.023 C13.919,16.948 22.510,13.058 31.345,10.292 C33.050,9.757 34.764,9.266 36.470,8.800 C39.687,7.924 42.924,7.120 46.176,6.383 C57.811,3.738 69.652,1.969 81.586,1.107 C82.278,1.057 82.974,1.011 83.672,0.974 C87.959,0.740 92.319,0.840 96.367,2.483 C105.518,6.200 110.819,17.150 111.330,27.451 C112.127,43.538 104.736,64.487 94.170,75.633 Z"/>
 							</svg> */}
                                     </div>
-                                    <h3 className="item-title"><a href="service-details.html">Manufacturing Equipment & Machinery</a></h3>
-                                    <p>Access provided to the utilization of 3D Printers, PCB/ Metal Fabrication, CNC, Plastic Molding, etc.
+                                    <h3 className="item-title"><a href="service-details.html">Funding Pitch Preparation</a></h3>
+                                    <p>Coaching to effectively present ideas to investors and stakeholders
                                     </p>
                                 </div>
                             </div>
@@ -435,8 +443,8 @@ export default function Home() {
 								<path d="M94.170,75.633 C89.320,80.748 82.081,83.923 75.335,81.794 C69.399,79.922 65.020,74.470 59.599,71.197 C51.098,66.064 40.914,66.687 31.305,66.427 C27.387,66.323 23.278,65.938 19.374,64.964 C15.436,63.982 11.710,62.398 8.596,59.896 C7.227,58.797 5.976,57.524 4.879,56.041 C3.059,53.582 1.896,50.791 1.293,47.862 C-0.404,39.611 2.385,30.251 7.785,24.023 C13.919,16.948 22.510,13.058 31.345,10.292 C33.050,9.757 34.764,9.266 36.470,8.800 C39.687,7.924 42.924,7.120 46.176,6.383 C57.811,3.738 69.652,1.969 81.586,1.107 C82.278,1.057 82.974,1.011 83.672,0.974 C87.959,0.740 92.319,0.840 96.367,2.483 C105.518,6.200 110.819,17.150 111.330,27.451 C112.127,43.538 104.736,64.487 94.170,75.633 Z"/>
 							</svg> */}
                                     </div>
-                                    <h3 className="item-title"><a href="service-details.html">Marketing</a></h3>
-                                    <p>We offer assistance in digital/ B2B marketing while scaling up to increase and improve reach towards multiple market segments
+                                    <h3 className="item-title"><a href="service-details.html">Product Development Support</a></h3>
+                                    <p> Assistance in design, prototyping, and refining innovative products
                                     </p>
                                 </div>
                             </div>
