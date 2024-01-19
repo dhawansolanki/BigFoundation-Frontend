@@ -18,8 +18,7 @@ export default function App() {
   return (
     <div className="App">
 
-    <RegisterAlumini/>
-    <RegisterStudent/>
+    
       <Header/>
         <Routes>
 
@@ -27,6 +26,7 @@ export default function App() {
           <Route path='/team' element={<Team/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/launchPad' element={<LaunchPad/>}/>
+          <Route path='/register' element={<Register/>}/>
           <Route path='/RegisterStudent' element={<RegisterStudent/>}/>
           <Route path='/RegisterAlumini' element={<RegisterAlumini/>}/>
           <Route path='/RegisterStartup' element={<RegisterStartup/>}/>
