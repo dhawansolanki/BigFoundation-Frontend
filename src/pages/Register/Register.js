@@ -256,7 +256,7 @@ const Register = () => {
                         <div className="container-fluid">
                             <div className="row justify-content-center">
                                 <div className="col-11 col-sm-10 col-md-10 col-lg-6 col-xl-5 text-center p-0 mt-3 mb-2">
-                                    <div className="card px-0 pt-4 pb-0 mt-3 mb-3">
+                                    <div className=" px-0 pt-4 pb-0 mt-3 mb-3">
                                         <div className="register-header">
                                             <h1 id="heading">Registeration Form</h1>
                                             <p>Register with us and we shall get back to you shortly</p>
