@@ -11,7 +11,7 @@ export const Footer = () => {
                   <div className="col-xl-2 col-lg-3 col-md-6 col-12">
                     <div className="footer-widgets">
                       <div className="footer-logo">
-                        <a href="index.html"><img src="/media/logo-dark.png" alt="Logo"/></a>
+                        <a href="index.html"><img src="bigf.png" alt="Logo"/></a>
                         <p><b>An Intitiative by BMSCE</b></p>
                       </div>
                       <p className="about-paragraph"></p>
