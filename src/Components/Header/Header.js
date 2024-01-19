@@ -1,53 +1,70 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import '../../utils/global.css';
-import '../../utils/team.css';
+import './Header.css'
 export const Header = () => {
   return (
     <>
-    <div >
-      <nav className="navbar navbar-expand-md sticky-top bg-light navbar-light">
-              <div className="container-fluid">
-                <Link className="navbar-brand d-md-none" to="/"><img src="/bigf.png"
-                    style={{height:'69px'}}
-                    alt="Logo" /></Link><button data-bs-toggle="collapse"
-                  className="navbar-toggler"
-                  data-bs-target="#navcol-1">
-                  <span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse d-md-flex" id="navcol-1">
-                  <ul className="navbar-nav d-flex justify-content-evenly mx-auto w-100">
-                    <li className="nav-item">
-                      <Link className="nav-link text-center" to="/"><i className="fas fa-home"></i>&nbsp;Home</Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link className="nav-link text-center" to="/team"
-                      ><i className="fas fa-fire"></i>&nbsp;Team</Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link className="nav-link text-center" to="/launchpad"><i className="fas fa-chart-bar"></i>&nbsp;Launch Pad</Link>
-                    </li>
-                  </ul>
-                  <Link to='/' className="navbar-brand d-none d-md-block me-0"><img
-                      src="/bigf.png"
-                      style={{height:'69px',width:'199px'}}
-                      alt="Logo"
-                    /></Link>
-                  <ul className="navbar-nav d-flex justify-content-evenly mx-auto w-100">
-                    <li className="nav-item">
-                      <Link className="nav-link text-center" to="/register"><i className="fas fa-cloud-download-alt"></i>&nbsp; Register</Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link className="nav-link text-center" to="/devWing"><i className="fas fa-info-circle"></i>&nbsp;Devwing</Link>
-                    </li>
-                    <li className="nav-item pb-2 pb-md-0">
-                      <Link className="nav-link text-nowrap text-center" to="/contact"><i className="fas fa-at"></i>&nbsp;Contact</Link>
-                    </li>
-                  </ul>
+      <div >
+        <nav className="navbar navbar-expand-md sticky-top bg-light navbar-light">
+          <div className="container-fluid">
+            <Link className="navbar-brand d-md-none " to="/"><img src="/bigf.png"
+              style={{ height: '69px' }}
+              alt="Logo" /></Link><button data-bs-toggle="collapse"
+                className="navbar-toggler  "
+                data-bs-target="#navcol-1">
+              <span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span>
+            </button>
+            <div className='d-flex justify-content-start'>  <Link to='/' className="navbar-brand d-none d-md-block me-0"><img
+              src="/bigf.png"
+              style={{ height: '69px' }}
+              alt="Logo"
+            /></Link></div>
+            <div className="collapse  navbar-collapse " id="navcol-1">
+              <ul className="navbar-nav d-flex justify-content-end mx-auto my-auto w-100">
+
+                <li style={{ paddingRight: '12px' }} className="nav-item">
+                  <Link className="nav-link text-center" to="/">&nbsp;<b>Home</b></Link>
+                </li>
+                <li style={{ paddingRight: '12px' }} className="nav-item">
+                  <Link className="nav-link text-center" to="/team"
+                  >&nbsp;<b>About</b></Link>
+                </li>
+                <li style={{ paddingRight: '12px' }} className="nav-item">
+                  <Link className="nav-link text-center" to="/team"
+                  >&nbsp;<b>Events</b></Link>
+                </li>
+                <li style={{ paddingRight: '12px' }} className="nav-item">
+                  <Link className="nav-link text-center" to="/launchpad">&nbsp;<b>Facilities</b></Link>
+                </li>
+                <li style={{ paddingRight: '12px' }} className="nav-item">
+                  <Link className="nav-link text-center" to="/">&nbsp;<b>Blogs</b></Link>
+                </li>
+                <li style={{ paddingRight: '12px' }} className="nav-item">
+                  <Link className="nav-link text-center" to="/launchpad">&nbsp;<b>Startup Launchpad </b></Link>
+                </li>
+                {/* <li style={{ paddingRight: '12px' }} className="nav-item">
+                  <Link className="nav-link text-center" to="/devWing">&nbsp;<b>Devwing</b></Link>
+                </li> */}
+                <li style={{ paddingRight: '12px' }} className="nav-item pb-2 pb-md-0">
+                  <Link className="nav-link text-nowrap text-center" to="/contact">&nbsp;<b>Contact</b></Link>
+                </li>
+                <li  style={{ paddingRight: '12px' ,backgroundColor:'#5935f7'}} className="nav-item dropdown rounded">
+                  <Link  style={{color:'white'}} className="nav-link " to="/register">&nbsp;<b>Register</b></Link>
+                  <div style={{right:'0'}} className="dropdown-menu position-absolute"  aria-labelledby="navbarDropdown">
+
+                  <Link className="dropdown-item "    to="/register">Students</Link>
+                  <Link className="dropdown-item "    to="/register">Alumini</Link>
+                  <Link className="dropdown-item "   to="/register">Faculty</Link>
+                  <Link className="dropdown-item "   to="/register">Company/Industry</Link>
+                  <Link className="dropdown-item "   to="/register">StartUp</Link>
                 </div>
-              </div>
-            </nav>
-    </div>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
     </>
   )
 }
