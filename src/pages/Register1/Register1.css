@@ -50,7 +50,8 @@ html,body{
     max-width: 30%;
     display: flex;
     border: 2px solid rgb(59, 95, 98);
-    /* background: rgb(229, 229, 116); */
+    background: rgb(30, 29, 29);
+    color: white;
 }
 .register-image{
     display: flex;
