@@ -1,15 +1,14 @@
 import React from 'react'
 import "./Register1.css"
-import Header from '../../Components/Header/Header'
-import Footer from '../../Components/Footer/Footer'
+
 
 const RegisterAlumini = () => {
   return (
     <div>
       <>
-        <Header/>
+        
         <div className="register-header">
-        <h1 id="heading">Registeration Form</h1>
+        <h1 id="heading">Alumini Registeration</h1>
         <p>Register with us and we shall get back to you shortly</p>
     </div>
     <section className='register'>
@@ -26,7 +25,7 @@ const RegisterAlumini = () => {
                         <div className="container">
                             <hr />
                             <label for="first name"><b>Full name</b></label>
-                            <input style={{backgroundColor:"seagreen"}} type="text" name="Full name" placeholder="Full name" size="15" required />
+                            <input type="text" name="Full name" placeholder="Full name" size="15" required />
                             <label for="email"><b>Email</b></label>
                             <input type="text" placeholder="Enter Email" name="email" required />
                             <label>
@@ -53,7 +52,6 @@ const RegisterAlumini = () => {
             <img src="\bigf.png" alt='logo' />
     </section>
     </section>
-    <Footer/>
       </>
     </div>
   )
