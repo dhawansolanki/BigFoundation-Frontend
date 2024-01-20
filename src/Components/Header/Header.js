@@ -56,13 +56,12 @@ export const Header = () => {
                 </li>
                 <li style={{ paddingRight: '12px', backgroundColor: '#5935f7' }} className="nav-item dropdown rounded">
                   <button style={{ color: 'white' , right: '0', maxWidth: '200px'}} onClick={closeDropdown} className="nav-link ">&nbsp;<b>Register</b></button>
-                  <div style={{ right: '0', maxWidth: '200px' }} className="dropdown-menu position-absolute dropdown-menu-end" aria-labelledby="navbarDropdown">
-
-                    <Link onClick={closeDropdown} className="dropdown-item text-nowrap" to="/register">Students</Link>
-                    <Link onClick={closeDropdown} className="dropdown-item text-nowrap" to="/register">Alumini</Link>
-                    <Link onClick={closeDropdown} className="dropdown-item text-nowrap" to="/register">Faculty</Link>
-                    <Link onClick={closeDropdown} className="dropdown-item text-nowrap" to="/register">Company/Industry</Link>
-                    <Link onClick={closeDropdown} className="dropdown-item text-nowrap" to="/register">StartUp</Link>
+                  <div style={{ right: '0', maxWidth: '200px' }} className="dropdown-menu position-absolute dropdown-menu-end" aria-labelledby="navbarDropdown"> 
+                    <Link onClick={closeDropdown} className="dropdown-item text-nowrap" to="/RegisterStudent">Students</Link>
+                    <Link onClick={closeDropdown} className="dropdown-item text-nowrap" to="/RegisterAlumini">Alumini</Link>
+                    <Link onClick={closeDropdown} className="dropdown-item text-nowrap" to="/RegisterFaculty">Faculty</Link>
+                    <Link onClick={closeDropdown} className="dropdown-item text-nowrap" to="/RegisterCompany">Company/Industry</Link>
+                    <Link onClick={closeDropdown} className="dropdown-item text-nowrap" to="/RegisterStartup">StartUp</Link>
                   </div>
                 </li>
               </ul>
