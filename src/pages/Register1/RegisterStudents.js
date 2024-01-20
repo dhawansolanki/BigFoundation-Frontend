@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Register1.css"
+import StartUp from '../../Components/StartUp'
 const RegisterStudent = () => {
   return (
     <div>
@@ -51,6 +52,8 @@ const RegisterStudent = () => {
             </section>
           </div>
         </section>
+        
+        <StartUp/>
 
       </>
     </div>

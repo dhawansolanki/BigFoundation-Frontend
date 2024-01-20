@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Register1.css"
+import StartUp from '../../Components/StartUp'
 import { useState } from 'react';
 
 
@@ -142,8 +143,10 @@ const RegisterCompany = () => {
                     <section className='register-image'>
                         <img src="\bigf.png" alt='logo' />
                     </section>
+                    
 
                 </div>
+                <StartUp/>
             </>
         </div>
     )
