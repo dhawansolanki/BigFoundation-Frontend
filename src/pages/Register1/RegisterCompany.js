@@ -15,7 +15,7 @@ const RegisterCompany = () => {
             <>
 
                 <div className="register-header">
-                    <h1 id="heading">Company Registeration</h1>
+                    <h1 id="heading">Company Registration</h1>
                     <p>Register with us and we shall get back to you shortly</p>
                 </div>
                 <div className="main-content">

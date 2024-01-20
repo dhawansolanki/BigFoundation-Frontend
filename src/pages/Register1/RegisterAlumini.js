@@ -8,7 +8,7 @@ const RegisterAlumini = () => {
             <>
 
                 <div className="register-header">
-                    <h1 id="heading">Alumini Registeration</h1>
+                    <h1 id="heading">Alumini Registration</h1>
                     <p>Register with us and we shall get back to you shortly</p>
                 </div>
                 <section className='register'>
