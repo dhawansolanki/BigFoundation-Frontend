@@ -1,0 +1,16 @@
+.card-body{
+    box-shadow: 1px 2px 10px black;
+    border-radius: 2%;
+    border: none;
+}
+.card-body:hover{
+    transform: scale(1.05);
+    transition: 0.7s;
+}
+.latestEvents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    gap: 40px;
+}

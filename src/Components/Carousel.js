@@ -6,13 +6,13 @@ export default function Carousel() {
         <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="media/about/about1.jpg" className="d-block w-100" alt="..." style={{height:'660px'}}/>
+      <img src="media/about/about1.jpg" className="d-block w-100" alt="..." style={{height:'85vh'}}/>
     </div>
     <div className="carousel-item">
-      <img src="media/about/about1.jpg" className="d-block w-100" alt="..." style={{height:'560px'}}/>
+      <img src="media/about/about1.jpg" className="d-block w-100" alt="..." style={{height:'85vh'}}/>
     </div>
     <div className="carousel-item">
-      <img src="media/about/about1.jpg" className="d-block w-100" alt="..." style={{height:'460px'}}/>
+      <img src="media/about/about1.jpg" className="d-block w-100" alt="..." style={{height:'85vh'}}/>
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

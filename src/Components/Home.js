@@ -1,19 +1,24 @@
-import React from 'react'
+import React from "react";
+import StartUp from "./StartUp";
+import LatestEvents from "./LatestEvents";
 import Carousel from './Carousel'
 export default function Home() {
   return (
     <div>
-
-    {/* <div id="preloader" className="tlp-preloader">
+      {/* <div id="preloader" className="tlp-preloader">
         <div className="animation-preloader">
             <div className="tlp-spinner"></div>
             <img src="media/bmsce.png" alt="Preloader"/>
         </div>
     </div> */}
 
-    <div id="wrapper" className="wrapper">
-        <a href="#main_content" data-type="section-switch" className="return-to-top">
-            <i className="fas fa-angle-double-up"></i>
+      <div id="wrapper" className="wrapper">
+        <a
+          href="#main_content"
+          data-type="section-switch"
+          className="return-to-top"
+        >
+          <i className="fas fa-angle-double-up"></i>
         </a>
 
         <div id="main_content">
@@ -456,292 +461,204 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <section className="process-wrap-layout2 section-padding-md bg-gradient-layout2 position-relative">
-                <div className="container">
-                    <div className="section-heading heading-light heading-layout1">
-                        <div className="heading-sub-title">WORK FLOW</div>
-                        <h2 className="heading-main-title" id="walkthrough">Walkthrough</h2>
-
+            {/* todo is I have to update the styling of the cards and the size of the buttons should be same and "Load more" button when clicked it goes to /events*/}
+          <LatestEvents/>
+          <section className="feature-wrap-layout1">
+            <div className="container">
+              <div className="row gutters-50">
+                <div className="col-12 order-lg-1 d-lg-flex align-items-center justify-content-center has-animation d-none">
+                  <div className="indicator-wrap">
+                    <svg className="dash-left" width="675" height="206">
+                      <g fill="none" strokeWidth="2">
+                        <path
+                          className="dashed1"
+                          stroke="rgba(17, 17, 17, 0.3)"
+                          strokeDasharray="6, 6"
+                          strokeLinecap="butt"
+                          strokeLinejoin="miter"
+                          d="M3.000,0.995 L3.000,100.997 L673.000,101.994 L673.000,207.995"
+                        />
+                        <path
+                          className="dashed2"
+                          stroke="white"
+                          strokeDasharray="6, 6"
+                          strokeLinecap="butt"
+                          strokeLinejoin="miter"
+                          d="M3.000,0.995 L3.000,100.997 L673.000,101.994 L673.000,207.995"
+                        />
+                      </g>
+                    </svg>
+                    <div className="indicator-img-right">
+                      <div className="translate-top-50 opacity-animation transition-100 transition-delay-2500">
+                        <img src="media/element/element2.png" alt="element" />
+                      </div>
                     </div>
-                    <div className="row gutters-80 has-animation">
-                        <div className="col-xl-4 col-md-6 col-12">
-                            <a href="innovate.html">
-                                <div className="translate-zoomout-50 opacity-animation transition-100 transition-delay-100">
-                                    <div className="process-box-layout2">
-                                        <div className="count-number">1</div>
-                                        <div className="item-content">
-                                            <div className="item-icon california">
-                                                <i className="flaticon-research-1"></i>
-                                            </div>
-                                            <h3 className="item-title">Innovate</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-                        <div className="col-xl-4 col-md-6 col-12">
-                            <a href="incubate.html">
-                                <div className="translate-zoomout-50 opacity-animation transition-100 transition-delay-400">
-                                    <div className="process-box-layout2">
-                                        <div className="count-number">2</div>
-                                        <div className="item-content">
-                                            <div className="item-icon emerald">
-                                                <i className="flaticon-think-1"></i>
-                                            </div>
-                                            <h3 className="item-title">Incubate</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-                        <div className="col-xl-4 col-md-6 col-12">
-                            <a href="inspire.html">
-                                <div className="translate-zoomout-50 opacity-animation transition-100 transition-delay-700">
-                                    <div className="process-box-layout2">
-                                        <div className="count-number">3</div>
-                                        <div className="item-content">
-                                            <div className="item-icon royal-blue">
-                                                <i className="flaticon-growth"></i>
-                                            </div>
-                                            <h3 className="item-title">Inspire</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                    </div>
+                  </div>
                 </div>
-            </section>
-            <section className="feature-wrap-layout1">
-                <div className="container">
-                    <div className="row gutters-50">
-
-
-                        <div className="col-12 order-lg-1 d-lg-flex align-items-center justify-content-center has-animation d-none">
-                            <div className="indicator-wrap">
-                                <svg className="dash-left" width="675" height="206">
-						<g fill="none" strokeWidth="2">
-							<path className="dashed1" stroke="rgba(17, 17, 17, 0.3)" strokeDasharray="6, 6" strokeLinecap="butt" strokeLinejoin="miter" d="M3.000,0.995 L3.000,100.997 L673.000,101.994 L673.000,207.995" />
-							<path className="dashed2" stroke="white" strokeDasharray="6, 6" strokeLinecap="butt" strokeLinejoin="miter" d="M3.000,0.995 L3.000,100.997 L673.000,101.994 L673.000,207.995" />
-						</g>
-					</svg>
-                                <div className="indicator-img-right">
-                                    <div className="translate-top-50 opacity-animation transition-100 transition-delay-2500">
-                                        <img src="media/element/element2.png" alt="element"/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6 order-lg-3 order-3 col-12 has-animation">
-                            <div className="feature-box-layout1">
-                                <div className="translate-right-75 opacity-animation transition-150 transition-delay-50">
-                                    <img src="media/feature/feature2.png" alt="Feature"/>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6 order-lg-2 col-12 order-2 d-flex align-items-center justify-content-center has-animation">
-                            <div className="feature-box-layout1">
-                                <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-100">
-                                    <h3 className="item-title">Are you still figuring out an Idea?</h3>
-                                </div>
-                                <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-500">
-                                    <p>Become a Volunteer and work closely with others who are working on ideas. You may have a game-changing idea when you surround yourself with people who are constantly talking about new ideas.
-                                    </p>
-                                </div>
-                                <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-2500">
-                                    <a href="register.html" className="btn-fill btn-gradient">Volunteer Now<i className="flaticon-next"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-6 col-12 has-animation">
-                            <div className="feature-box-layout1">
-                                <div className="translate-left-75 opacity-animation transition-150 transition-delay-100">
-                                    <img src="media/feature/feature3.png" alt="Feature"/>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6 col-12 d-flex align-items-center justify-content-center has-animation">
-                            <div className="feature-box-layout1">
-                                <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-100">
-                                    <h3 className="item-title">What are You Waiting For?</h3>
-                                </div>
-                                <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-500">
-                                    <p>Turn your vision into value by Joining Us today</p>
-                                </div>
-                                <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-900">
-                                    <ul className="list-layout2">
-                                        <li>Register with us with your idea and we will help you transform - Become an Innovator</li>
-                                        <li>Take your next big step with your startup- Become an Incubatee
-                                        </li>
-                                        <li>We are constantly looking for mentors who can inspire our Innovators and Incubates</li>
-                                        <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-2500">
-                                            <a href="register.html" className="btn-fill btn-gradient">Register Now<i className="flaticon-next"></i></a>
-                                        </div>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                <div className="col-lg-6 order-lg-3 order-3 col-12 has-animation">
+                  <div className="feature-box-layout1">
+                    <div className="translate-right-75 opacity-animation transition-150 transition-delay-50">
+                      <img src="media/feature/feature2.png" alt="Feature" />
                     </div>
+                  </div>
                 </div>
-            </section>
-            <section className="section-padding-md bg-color-light position-relative">
-                <div className="container">
-                    <div className="section-heading heading-dark heading-layout1 has-animation">
-                        <h2 className="heading-main-title" id="events">Latest Events</h2>
-                        <div className="heading-icon">
-                            <svg className="dash-left" width="100" height="20">
-	<g fill="none" strokeWidth="4">
-		<path className="dashed1" stroke="rgba(90, 73, 248, 0.5)" strokeDasharray="5, 5" d="M5 20 l215 0" />
-		<path className="dashed2" stroke="white" strokeDasharray="5, 5" d="M5 20 l215 0" />
-	</g>
-</svg>
-                            <i className="flaticon-rocket"></i>
-                            <svg className="dash-right" width="100" height="20">
-	<g fill="none" strokeWidth="4">
-		<path className="dashed1" stroke="rgba(90, 73, 248, 0.5)" strokeDasharray="5, 5" d="M5 20 l215 0" />
-		<path className="dashed2" stroke="white" strokeDasharray="5, 5" d="M5 20 l215 0" />
-	</g>
-</svg>
-
-
-                        </div>
-                        <p className="heading-paragraph"></p>
+                <div className="col-lg-6 order-lg-2 col-12 order-2 d-flex align-items-center justify-content-center has-animation">
+                  <div className="feature-box-layout1">
+                    <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-100">
+                      <h3 className="item-title">
+                        Are you still figuring out an Idea?
+                      </h3>
                     </div>
-                    <div className="row has-animation">
-                        <div className="col-lg-4 col-12">
-                            <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-100">
-                                <div className="blog-box-layout1">
-                                    <div className="item-figure">
-                                        <a href="blog-details.html"><img src="media/blog/blog1.jpg" alt="Blog Figure"/></a>
-                                    </div>
-                                    <div className="item-content">
-                                        <ul className="mb--5 entry-meta meta-color-accent justify-content-between">
-                                            <li><a href="#"><i className="far fa-calendar-alt"></i>August 15, 2021</a></li>
-                                        </ul>
-                                        <h3 className="entry-title title-color-dark"><a href="./buildinindia">Build In India Virtual Conference - The Launch Event</a></h3>
-                                        <ul className="entry-meta meta-color-accent justify-content-between meta-divider-center meta-wrap-border-top">
-                                            <li><a href="#"><i className="far fa-user"></i>By CIIE BMSCE & BMSCE Alumni Club</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-12">
-                            <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-300">
-                                <div className="blog-box-layout1">
-                                    <div className="item-figure">
-                                        <a href="#"><img src="media/blog/blog2.jpg" alt="Blog Figure"/></a>
-                                    </div>
-                                    <div className="item-content">
-                                        <ul className="mb--5 entry-meta meta-color-accent justify-content-between">
-                                            <li><a href="#"><i className="far fa-calendar-alt"></i>Coming Soon</a></li>
-                                        </ul>
-                                        <h3 className="entry-title title-color-dark"><a href="blog-details.html">Coming Soon</a></h3>
-                                        <ul className="entry-meta meta-color-accent justify-content-between meta-divider-center meta-wrap-border-top">
-                                            <li><a href="#"><i className="far fa-user"></i>Coming Soon</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-12">
-                            <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-500">
-                                <div className="blog-box-layout1">
-                                    <div className="item-figure">
-                                        <a href="blog-details.html"><img src="media/blog/blog3.jpg" alt="Blog Figure"/></a>
-                                    </div>
-                                    <div className="item-content">
-                                        <ul className="mb--5 entry-meta meta-color-accent justify-content-between">
-                                            <li><a href="#"><i className="far fa-calendar-alt"></i>Coming Soon</a></li>
-                                        </ul>
-                                        <h3 className="entry-title title-color-dark"><a href="blog-details.html">Coming Soon</a></h3>
-                                        <ul className="entry-meta meta-color-accent justify-content-between meta-divider-center meta-wrap-border-top">
-                                            <li><a href="#"><i className="far fa-user"></i>Coming Soon</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-500">
+                      <p>
+                        Become a Volunteer and work closely with others who are
+                        working on ideas. You may have a game-changing idea when
+                        you surround yourself with people who are constantly
+                        talking about new ideas.
+                      </p>
                     </div>
+                    <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-2500">
+                      <a href="register.html" className="btn-fill btn-gradient">
+                        Volunteer Now<i className="flaticon-next"></i>
+                      </a>
+                    </div>
+                  </div>
                 </div>
-            </section>
-            <section id="brand-wrap-layout1" className="brand-wrap-layout1 bg-color-accent2">
-                <div className="container">
-                    <div className="rc-carousel ">
-                        <div className="brand-box-layout1 "><img src="media/brand/brand1.png" alt="Brand-thumb"/></div>
-                        <div className="brand-box-layout1"><img src="media/brand/brand2.png" alt="Brand-thumb"/></div>
-                        <div className="brand-box-layout1"><img src="media/brand/brand3.png" alt="Brand-thumb"/></div>
-                        <div className="brand-box-layout1"><img src="media/brand/brand4.png" alt="Brand-thumb"/></div>
-                        <div className="brand-box-layout1"><img src="media/brand/brand5.png" alt="Brand-thumb"/></div>
 
-
+                <div className="col-lg-6 col-12 has-animation">
+                  <div className="feature-box-layout1">
+                    <div className="translate-left-75 opacity-animation transition-150 transition-delay-100">
+                      <img src="media/feature/feature3.png" alt="Feature" />
                     </div>
+                  </div>
                 </div>
-            </section>
-            <div id="template-search" className="template-search">
-                <button type="button" className="close">×</button>
-                <form className="search-form">
-                    <input type="search" placeholder="Type here........" />
-                    <button type="submit" className="search-btn">
-			<i className="flaticon-search"></i>
-		</button>
-                </form>
+                <div className="col-lg-6 col-12 d-flex align-items-center justify-content-center has-animation">
+                  <div className="feature-box-layout1">
+                    <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-100">
+                      <h3 className="item-title">What are You Waiting For?</h3>
+                    </div>
+                    <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-500">
+                      <p>Turn your vision into value by Joining Us today</p>
+                    </div>
+                    <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-900">
+                      <ul className="list-layout2">
+                        <li>
+                          Register with us with your idea and we will help you
+                          transform - Become an Innovator
+                        </li>
+                        <li>
+                          Take your next big step with your startup- Become an
+                          Incubatee
+                        </li>
+                        <li>
+                          We are constantly looking for mentors who can inspire
+                          our Innovators and Incubates
+                        </li>
+                        <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-2500">
+                          <a
+                            href="register.html"
+                            className="btn-fill btn-gradient"
+                          >
+                            Register Now<i className="flaticon-next"></i>
+                          </a>
+                        </div>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="offcanvas-menu-wrap" id="offcanvas-wrap" data-position="left">
-                <div className="close-btn offcanvas-close"><i className="fas fa-times"></i></div>
-                <div className="offcanvas-content">
-                    <div className="offcanvas-logo">
-                        <a href="index.html"><img src="media/logo.png" alt="logo"/></a>
-                    </div>
-                    <nav>
-                        <ul className="offcanvas-nav">
-                            <li className="nav-item">
-                                <a href="index.html">Home</a>
-                            </li>
-                            <li className="nav-item">
-                                <a href="about.html">About</a>
-                            </li>
-                            <li className="nav-item">
-                                <a href="service-layout1.html">Service</a>
-                            </li>
-                            <li className="nav-item">
-                                <a href="gallery-grid-2-column.html">Portfolio</a>
-                            </li>
-                            <li className="nav-item">
-                                <a href="team.html">Team</a>
-                            </li>
-                            <li className="nav-item">
-                                <a href="blog-grid.html">Blog</a>
-                            </li>
-                            <li className="nav-item">
-                                <a href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div className="offcanvas-footer">
-                        <div className="item-title">Follow Me</div>
-                        <ul className="offcanvas-social">
-                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i className="fab fa-google-plus-g"></i></a></li>
-                            <li><a href="#"><i className="fab fa-pinterest"></i></a></li>
-                            <li><a href="#"><i className="fas fa-rss"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
+          </section>
+          <StartUp/>
+          <div id="template-search" className="template-search">
+            <button type="button" className="close">
+              ×
+            </button>
+            <form className="search-form">
+              <input type="search" placeholder="Type here........" />
+              <button type="submit" className="search-btn">
+                <i className="flaticon-search"></i>
+              </button>
+            </form>
+          </div>
+          <div
+            className="offcanvas-menu-wrap"
+            id="offcanvas-wrap"
+            data-position="left"
+          >
+            <div className="close-btn offcanvas-close">
+              <i className="fas fa-times"></i>
             </div>
-
-
-
+            <div className="offcanvas-content">
+              <div className="offcanvas-logo">
+                <a href="index.html">
+                  <img src="media/logo.png" alt="logo" />
+                </a>
+              </div>
+              <nav>
+                <ul className="offcanvas-nav">
+                  <li className="nav-item">
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li className="nav-item">
+                    <a href="about.html">About</a>
+                  </li>
+                  <li className="nav-item">
+                    <a href="service-layout1.html">Service</a>
+                  </li>
+                  <li className="nav-item">
+                    <a href="gallery-grid-2-column.html">Portfolio</a>
+                  </li>
+                  <li className="nav-item">
+                    <a href="team.html">Team</a>
+                  </li>
+                  <li className="nav-item">
+                    <a href="blog-grid.html">Blog</a>
+                  </li>
+                  <li className="nav-item">
+                    <a href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+              <div className="offcanvas-footer">
+                <div className="item-title">Follow Me</div>
+                <ul className="offcanvas-social">
+                  <li>
+                    <a href="#">
+                      <i className="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i className="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i className="fab fa-linkedin-in"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i className="fab fa-google-plus-g"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i className="fab fa-pinterest"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i className="fas fa-rss"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-  )
+  );
 }
-

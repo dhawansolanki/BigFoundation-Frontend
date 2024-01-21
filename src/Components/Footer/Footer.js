@@ -1,72 +1,58 @@
-import React from 'react'
+import React from 'react';
+import './Footer.css'; // Assuming you have a Footer.css for styling
 
-export const Footer = () => {
+const Footer = () => {
   return (
-    <div>
-      
-      <footer id="footer-wrap-layout1" className="footer-wrap-layout1 bg-color-light">
-            <div className="footer-top-layout1 bg-no-repeat bg-size-cover bg-position-center" data-bg-image="media/element/element3.png">
-              <div className="container">
-                <div className="row">
-                  <div className="col-xl-2 col-lg-3 col-md-6 col-12">
-                    <div className="footer-widgets">
-                      <div className="footer-logo">
-                        <a href="index.html"><img src="bigf.png" alt="Logo"/></a>
-                        <p><b>An Intitiative by BMSCE</b></p>
-                      </div>
-                      <p className="about-paragraph"></p>
+    <footer className="footer">
+      <div className="container row">
+        <div className="footer-col">
+          <h4>Contact Us</h4>
+          <p>BigFoundation : BMS College of Engineering Bull Temple Road, Basavanagudi, Bangalore- 560019</p>
+          <ul>
+          <li><a href="https://www.google.com/maps/place/BMS+College+of+Engineering/@12.9410122,77.5629509,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae158b11e34d2f:0x5f4adbdbab8bd80f!8m2!3d12.9410122!4d77.5655258!16zL20vMDM5ejcy?entry=ttu" target="_blank" rel="noopener noreferrer"><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/address--v1.png" alt="address--v1"/> Map</a></li>
+          <li><a href="mailto:ciie@bmsce.ac.in"><img width="48" height="48" src="https://img.icons8.com/fluency-systems-regular/48/FFFFFF/filled-message.png" alt="filled-message"/> Email</a></li>
+          </ul>
+        </div>
+        <div className="footer-col">
+          <h4>Important</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="/team">Events</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="/launchpad">Facilities</a></li>
+            <li><a href="#">Gallery</a></li>
+          </ul>
+        </div>
+        <div className="footer-col">
+          <h4>Insights</h4>
+          <ul>
+            <li><a href="#">Vision</a></li>
+            <li><a href="#">Mission</a></li>
+            <li><a href="#">Objectives</a></li>
+            <li><a href="/team">About Us</a></li>
+          </ul>
+        </div>
+        <div className="footer-col">
+          <h4>follow us</h4>
+          <div className="social-links">
+            <a href="https://chat.whatsapp.com/LraWNV787sJDxcB3fGCsgc" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/company/big-foundation-bmsce/mycompany/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/big_foundation_?igsh=emZpdGFwMzNicHl4" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
 
-                    </div>
-                  </div>
-                  <div className="col-xl-3 col-lg-2 d-xl-block">
-                    <div className="footer-widgets">
-                      <h3 className="footer-widget-heading">Contact Information</h3>
-                      <p></p>
-                      <ul className="footer-contact">
-                        <li><i className="flaticon-placeholder"></i>BigFoundation: BMS College of Engineering Bull Temple Road, Basavanagudi, Bangalore- 560019</li>
-                        <li><i className="flaticon-plane"></i>BigFoundation@bmsce.ac.in</li>
-
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="col-xl-3 col-lg-3 col-md-6 col-12">
-                    <div className="footer-widgets">
-                      <h3 className="footer-widget-heading">_</h3>
-                      <p></p>
-                      <ul className="footer-contact">
-                        <p><b>Chief Convener</b></p>
-                        <li><i className="flaticon-placeholder"></i>Dr. H. N. Suma</li>
-                        <li><i className="flaticon-plane"></i>hns.ml@bmsce.ac.in</li>
-
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div className="col-xl-4 col-lg-4 col-md-6 col-12">
-                    <div className="footer-widgets">
-                      <h3 className="footer-widget-heading">_</h3>
-                      <p></p>
-                      <ul className="footer-contact">
-                        <p><b>Management Lead</b></p>
-                        <li><i className="flaticon-placeholder"></i>Abhyuday C M</li>
-                        <li><i className="flaticon-plane"></i>abhyuday.me18@bmsce.ac.in</li>
-
-
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="footer-bottom-layout1 bg-color-accent">
-              <div className="container">
-                <div className="copy-right-wrap">
-                  <p className="copy-right-text">© 2024 <a href="https://www.radiustheme.com/" rel='noreferrer' target="_blank">BigFoundation BMSCE</a> All Rights Reserved</p>
-                </div>
-              </div>
-            </div>
-          </footer>
-    </div>
-  )
-}
 export default Footer;
+
+
+// news letter
+//<div className="newsletter-container">
+//<h3>E-Cell IIT (BHU) Varanasi's Weekly Newsletter</h3>
+//<div className="newsletter-form">
+//  <input type="email" placeholder="Type your email..." />
+//  <button type="submit">Subscribe</button>
+//</div>
+//</div
