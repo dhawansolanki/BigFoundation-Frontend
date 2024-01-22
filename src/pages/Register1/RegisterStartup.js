@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Register1.css"
-
-
+import StartUp from '../../Components/StartUp'
 const RegisterStartup = () => {
     return (
         <div>
@@ -53,6 +52,7 @@ const RegisterStartup = () => {
                         </section>
                     </div>
                 </section>
+                <StartUp/>
 
 
             </>
