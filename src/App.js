@@ -21,8 +21,7 @@ export default function App() {
 
     
       <Header/>
-      <CampusExecutive/>
-        {/*<Routes>
+        <Routes>
 
           <Route path='/' element={<Home/>} exact />
           <Route path='/team' element={<Team/>}/>
@@ -36,7 +35,7 @@ export default function App() {
           <Route path='/RegisterFaculty' element={<RegisterFaculty/>}/>
         <Route path='/devWing' element={<Devwing/>}/>
 
-        </Routes>*/}
+        </Routes>
   <Footer/>
     </div>
 
