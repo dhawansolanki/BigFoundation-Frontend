@@ -17,6 +17,7 @@ import RegisterFaculty from './pages/Register1/RegisterFaculty.js';
 import EventCard from './Components/EventCard';
 import FullEventInfo from './Components/FullEventInfo';
 
+import CampusExecutive from './pages/CampusExecutive.js/CampusExecutive.js';
 export default function App() {
   const [events, setEvents] = useState([]);
 
