@@ -37,7 +37,8 @@ export default function App() {
   return (
     <div className="App">
 
-
+<header/>
+<Routes>
           <Route path='/' element={<Home/>} exact />
           <Route path='/team' element={<Team/>}/>
           <Route path='/contact' element={<Contact/>}/>
