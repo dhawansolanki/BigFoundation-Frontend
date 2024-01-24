@@ -18,6 +18,7 @@ import EventCard from './Components/EventCard';
 import FullEventInfo from './Components/FullEventInfo';
 
 import CampusExecutive from './pages/CampusExecutive.js/CampusExecutive.js';
+import AlumniNetwork from './pages/AlumniNetwork/AlumniNetwork.js';
 export default function App() {
   const [events, setEvents] = useState([]);
 
@@ -37,34 +38,31 @@ export default function App() {
     <div className="App">
 
 
-      <Header />
-      <Routes>
-
-        <Route path='/' element={<Home />} exact />
-        <Route path='/team' element={<Team />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/launchPad' element={<LaunchPad />} />
-        <Route path='/register' element={<Register />} />
-        <Route path='/RegisterStudent' element={<RegisterStudent />} />
-        <Route path='/RegisterAlumini' element={<RegisterAlumini />} />
-        <Route path='/RegisterStartup' element={<RegisterStartup />} />
-        <Route path='/RegisterCompany' element={<RegisterCompany />} />
-        <Route path='/RegisterFaculty' element={<RegisterFaculty />} />
-        <Route path='/devWing' element={<Devwing />} />
-        <Route path="/events" element={<div className='row'>
-          {events.map((event) => {
-            return <div className=" col-md-4">
-              <EventCard key={event.id} event={event} />
-            </div>
-          })}
-        </div>} />
-        <Route
-          path="/events/:eventId"
-          element={<FullEventInfo events={events} />}
-        />
-
-      </Routes>
-      <Footer/>
+          <Route path='/' element={<Home/>} exact />
+          <Route path='/team' element={<Team/>}/>
+          <Route path='/contact' element={<Contact/>}/>
+          <Route path='/launchPad' element={<LaunchPad/>}/>
+          <Route path='/register' element={<Register/>}/>
+          <Route path='/RegisterStudent' element={<RegisterStudent/>}/>
+          <Route path='/RegisterAlumini' element={<RegisterAlumini/>}/>
+          <Route path='/RegisterStartup' element={<RegisterStartup/>}/>
+          <Route path='/RegisterCompany' element={<RegisterCompany/>}/>
+          <Route path='/RegisterFaculty' element={<RegisterFaculty/>}/>
+            <Route path='/devWing' element={<Devwing/>}/>
+          <Route path="/events" element={<div className='row'>
+        {events.map((event) => {
+                return <div className=" col-md-4">
+                  <EventCard key={event.id} event={event} />
+                </div>
+              })}
+      </div>} />
+      <Route
+        path="/events/:eventId"
+        element={<FullEventInfo events={events} />}
+      />
+          <Route path='/alumni' element={<AlumniNetwork/>}/>
+        </Routes>
+  <Footer/>
     </div>
 
   )
