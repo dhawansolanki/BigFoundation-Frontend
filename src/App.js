@@ -17,7 +17,6 @@ import RegisterFaculty from './pages/Register1/RegisterFaculty.js';
 import EventCard from './Components/EventCard';
 import AlumniNetwork from './pages/AlumniNetwork/AlumniNetwork.js'
 import FullEventInfo from './Components/FullEventInfo';
-
 import CampusExecutive from './pages/CampusExecutive.js/CampusExecutive.js';
 import InternshipPortal from './pages/InternshipPortal/InternshipPortal.js'
 export default function App() {
