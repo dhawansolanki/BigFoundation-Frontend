@@ -1,10 +1,10 @@
 import Home from './Components/Home';
-import React ,{useState,useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import Register from './pages/Register/Register'
 // import Walkthrough from './pages/Walkthrough/Walkthrough'
 import LaunchPad from './pages/LaunchPad/LaunchPad';
-import Team  from './pages/Team/Team';
-import {Routes,Route} from "react-router-dom"
+import Team from './pages/Team/Team';
+import { Routes, Route } from "react-router-dom"
 import Contact from './pages/Contact/Contact.js'
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
@@ -15,7 +15,9 @@ import RegisterStartup from './pages/Register1/RegisterStartup.js';
 import RegisterCompany from './pages/Register1/RegisterCompany.js';
 import RegisterFaculty from './pages/Register1/RegisterFaculty.js';
 import EventCard from './Components/EventCard';
+import AlumniNetwork from './pages/AlumniNetwork/AlumniNetwork.js'
 import FullEventInfo from './Components/FullEventInfo';
+
 
 import CampusExecutive from './pages/CampusExecutive.js/CampusExecutive.js'
 import InternshipPortal from './pages/InternshipPortal/InternshipPortal.js'
@@ -24,7 +26,7 @@ export default function App() {
   const [events, setEvents] = useState([]);
 
   useEffect(() => {
-    fetch('/events.json') 
+    fetch('/events.json')
       .then((response) => {
         if (!response.ok) {
           throw new Error(`Failed to fetch events (${response.status} ${response.statusText})`);
@@ -38,10 +40,8 @@ export default function App() {
   return (
     <div className="App">
 
-    
-      <Header/>
-        <Routes>
-
+<header/>
+<Routes>
           <Route path='/' element={<Home/>} exact />
           <Route path='/team' element={<Team/>}/>
           <Route path='/contact' element={<Contact/>}/>
