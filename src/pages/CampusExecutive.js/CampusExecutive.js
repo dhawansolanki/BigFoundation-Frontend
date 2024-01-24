@@ -33,7 +33,7 @@ const CampusExecutive = () => {
                         </div>
                         <div className=" col-md-6">
                             <div className="mainLogo p-xl-5 m-xl-5">
-                                <img className="rounded img-fluid w-100 fit-cover" style={{ minHeight: "300px" }} src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
+                                <img alt=' ' className="rounded img-fluid w-100 fit-cover" style={{ minHeight: "300px" }} src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
                             </div>
                         </div>
                     </div>
@@ -41,13 +41,13 @@ const CampusExecutive = () => {
                 <div className="container py-4 py-xl-5">
                     <div className="row gy-4 gy-md-0">
                         <div className="col-md-6">
-                            <div className="p-xl-5 m-xl-5"><img className="rounded img-fluid w-100 fit-cover" style={{ minHeight: "300px" }} src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" /></div>
+                            <div className="p-xl-5 m-xl-5"><img alt=' 'className="rounded img-fluid w-100 fit-cover" style={{ minHeight: "300px" }} src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" /></div>
                         </div>
                         <div className="col-md-6 d-md-flex align-items-md-center">
                             <div style={{ maxWidth: "350px" }}>
                                 <h2 className="text-uppercase fw-bold">Why Campus Executive Internship?</h2>
                                 <p className="my-3">Devoted to acting as a symbiotic link between the entrepreneurs and the existing startup ecosystem, E-Cell IIT BHU provides you with an opportunity to lead and educate the students masses in your college with various startup related activities and events to inculcate the entrepreneurial culture in your own college!</p>{/*<a className="btn btn-primary btn-lg me-2" role="button" href="#">Button</a>*/}
-                                <a className="btn btn-outline-primary btn-lg" style={{ background: "black", color: "white", display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "row" }} role="button" href="#">Learn More!</a>
+                                <a className="btn btn-outline-primary btn-lg" style={{ background: "black", color: "white", display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "row" }} role="button" href="/">Learn More!</a>
                             </div>
                         </div>
                     </div>
@@ -116,7 +116,7 @@ const CampusExecutive = () => {
                                 </svg></div>
                                 <div className="px-3">
                                     <h4>Title</h4>
-                                    <p>Erat netus est hendrerit, nullam et quis ad cras porttitor iaculis. Bibendum vulputate cras aenean.</p><a href="#">Learn More <svg className="bi bi-arrow-right" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                                    <p>Erat netus est hendrerit, nullam et quis ad cras porttitor iaculis. Bibendum vulputate cras aenean.</p><a href="/">Learn More <svg className="bi bi-arrow-right" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
                                         <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
                                     </svg></a>
                                 </div>
@@ -130,7 +130,7 @@ const CampusExecutive = () => {
                                 </svg></div>
                                 <div className="px-3">
                                     <h4>Title</h4>
-                                    <p>Erat netus est hendrerit, nullam et quis ad cras porttitor iaculis. Bibendum vulputate cras aenean.</p><a href="#">Learn More <svg className="bi bi-arrow-right" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                                    <p>Erat netus est hendrerit, nullam et quis ad cras porttitor iaculis. Bibendum vulputate cras aenean.</p><a href="/">Learn More <svg className="bi bi-arrow-right" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
                                         <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
                                     </svg></a>
                                 </div>
@@ -143,7 +143,7 @@ const CampusExecutive = () => {
                                 </svg></div>
                                 <div className="px-3">
                                     <h4>Title</h4>
-                                    <p>Erat netus est hendrerit, nullam et quis ad cras porttitor iaculis. Bibendum vulputate cras aenean.</p><a href="#">Learn More <svg className="bi bi-arrow-right" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                                    <p>Erat netus est hendrerit, nullam et quis ad cras porttitor iaculis. Bibendum vulputate cras aenean.</p><a href="/">Learn More <svg className="bi bi-arrow-right" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
                                         <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
                                     </svg></a>
                                 </div>
@@ -156,11 +156,11 @@ const CampusExecutive = () => {
                         <div className="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
                             <div style={{ maxWidth: "350px" }}>
                                 <h2 className="text-uppercase fw-bold">Biben dum<br />fringi dictum, augue purus</h2>
-                                <p className="my-3">Tincidunt laoreet leo, adipiscing taciti tempor. Primis senectus sapien, risus donec ad fusce augue interdum.</p><a className="btn btn-primary btn-lg me-2" role="button" href="#">Button</a><a className="btn btn-outline-primary btn-lg" role="button" href="#">Button</a>
+                                <p className="my-3">Tincidunt laoreet leo, adipiscing taciti tempor. Primis senectus sapien, risus donec ad fusce augue interdum.</p><a className="btn btn-primary btn-lg me-2" role="button" href="/">Button</a><a className="btn btn-outline-primary btn-lg" role="button" href="/">Button</a>
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div className="p-xl-5 m-xl-5"><img className="rounded img-fluid w-100 fit-cover" style={{ minHeight: "300px" }} src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" /></div>
+                            <div className="p-xl-5 m-xl-5"><img alt=' 'className="rounded img-fluid w-100 fit-cover" style={{ minHeight: "300px" }} src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" /></div>
                         </div>
                     </div>
                 </div>
