@@ -39,8 +39,13 @@ export const Header = () => {
                   <Link className="nav-link text-center" to="/events"
                   >&nbsp;<b>Events</b></Link>
                 </li>
-                <li style={{ paddingRight: '12px' }} className="nav-item">
-                  <Link className="nav-link text-center" to="/launchpad">&nbsp;<b>Facilities</b></Link>
+                <li style={{ paddingRight: '12px' }} className="nav-item dropdown rounded">
+                  <button style={{ maxWidth: '200px'}} onClick={closeDropdown} className="nav-link ">&nbsp;<b>Facilities</b></button>
+                  <div style={{ right: '0', maxWidth: '200px' }} className="dropdown-menu position-absolute dropdown-menu-end" aria-labelledby="navbarDropdown"> 
+                    <Link onClick={closeDropdown} className="dropdown-item text-nowrap" to="InternshipPortal">Internship Portal</Link>
+                    <Link onClick={closeDropdown} className="dropdown-item text-nowrap" to="/CampusExecutive">Campus Executive</Link>
+                    <Link onClick={closeDropdown} className="dropdown-item text-nowrap" to="/alumni">Alumni Network</Link>
+                  </div>
                 </li>
                 <li style={{ paddingRight: '12px' }} className="nav-item">
                   <Link className="nav-link text-center" to="/">&nbsp;<b>Blogs</b></Link>
