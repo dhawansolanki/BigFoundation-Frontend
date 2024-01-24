@@ -14,7 +14,8 @@ import RegisterStudent from './pages/Register1/RegisterStudents.js';
 import RegisterStartup from './pages/Register1/RegisterStartup.js';
 import RegisterCompany from './pages/Register1/RegisterCompany.js';
 import RegisterFaculty from './pages/Register1/RegisterFaculty.js';
-import CampusExecutive from './pages/CampusExecutive.js/CampusExecutive.js';
+import CampusExecutive from './pages/CampusExecutive.js/CampusExecutive.js'
+import InternshipPortal from './pages/InternshipPortal/InternshipPortal.js'
 export default function App() {
   return (
     <div className="App">
@@ -33,6 +34,8 @@ export default function App() {
           <Route path='/RegisterStartup' element={<RegisterStartup/>}/>
           <Route path='/RegisterCompany' element={<RegisterCompany/>}/>
           <Route path='/RegisterFaculty' element={<RegisterFaculty/>}/>
+          <Route path='/CampusExecutive' element={<CampusExecutive/>}/>
+          <Route path='/InternshipPortal' element={<InternshipPortal/>}/>
         <Route path='/devWing' element={<Devwing/>}/>
 
         </Routes>
