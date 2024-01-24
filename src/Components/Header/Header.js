@@ -36,7 +36,7 @@ export const Header = () => {
                   >&nbsp;<b>About</b></Link>
                 </li>
                 <li style={{ paddingRight: '12px' }} className="nav-item">
-                  <Link className="nav-link text-center" to="/team"
+                  <Link className="nav-link text-center" to="/events"
                   >&nbsp;<b>Events</b></Link>
                 </li>
                 <li style={{ paddingRight: '12px' }} className="nav-item">

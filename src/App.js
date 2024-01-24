@@ -1,5 +1,5 @@
 import Home from './Components/Home';
-import React from 'react'
+import React ,{useState,useEffect} from 'react'
 import Register from './pages/Register/Register'
 // import Walkthrough from './pages/Walkthrough/Walkthrough'
 import LaunchPad from './pages/LaunchPad/LaunchPad';
@@ -14,8 +14,25 @@ import RegisterStudent from './pages/Register1/RegisterStudents.js';
 import RegisterStartup from './pages/Register1/RegisterStartup.js';
 import RegisterCompany from './pages/Register1/RegisterCompany.js';
 import RegisterFaculty from './pages/Register1/RegisterFaculty.js';
+import EventCard from './Components/EventCard';
+import FullEventInfo from './Components/FullEventInfo';
+
 import CampusExecutive from './pages/CampusExecutive.js/CampusExecutive.js';
 export default function App() {
+  const [events, setEvents] = useState([]);
+
+  useEffect(() => {
+    fetch('/events.json') 
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`Failed to fetch events (${response.status} ${response.statusText})`);
+        }
+        return response.json();
+      })
+      .then((data) => setEvents(data.Events))
+      .catch((error) => console.error('Error fetching events:', error));
+  }, []);
+
   return (
     <div className="App">
 
@@ -33,7 +50,18 @@ export default function App() {
           <Route path='/RegisterStartup' element={<RegisterStartup/>}/>
           <Route path='/RegisterCompany' element={<RegisterCompany/>}/>
           <Route path='/RegisterFaculty' element={<RegisterFaculty/>}/>
-        <Route path='/devWing' element={<Devwing/>}/>
+          <Route path='/devWing' element={<Devwing/>}/>
+          <Route path="/events" element={<div className='row'>
+        {events.map((event) => {
+                return <div className=" col-md-4">
+                  <EventCard key={event.id} event={event} />
+                </div>
+              })}
+      </div>} />
+      <Route
+        path="/events/:eventId"
+        element={<FullEventInfo events={events} />}
+      />
 
         </Routes>
   <Footer/>
