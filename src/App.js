@@ -18,7 +18,10 @@ import EventCard from './Components/EventCard';
 import AlumniNetwork from './pages/AlumniNetwork/AlumniNetwork.js'
 import FullEventInfo from './Components/FullEventInfo';
 
-import CampusExecutive from './pages/CampusExecutive.js/CampusExecutive.js';
+
+import CampusExecutive from './pages/CampusExecutive.js/CampusExecutive.js'
+import InternshipPortal from './pages/InternshipPortal/InternshipPortal.js'
+import AlumniNetwork from './pages/AlumniNetwork/AlumniNetwork.js';
 export default function App() {
   const [events, setEvents] = useState([]);
 
@@ -49,7 +52,9 @@ export default function App() {
           <Route path='/RegisterStartup' element={<RegisterStartup/>}/>
           <Route path='/RegisterCompany' element={<RegisterCompany/>}/>
           <Route path='/RegisterFaculty' element={<RegisterFaculty/>}/>
-            <Route path='/devWing' element={<Devwing/>}/>
+              <Route path='/CampusExecutive' element={<CampusExecutive/>}/>
+          <Route path='/InternshipPortal' element={<InternshipPortal/>}/>
+        <Route path='/devWing' element={<Devwing/>}/>
           <Route path="/events" element={<div className='row'>
         {events.map((event) => {
                 return <div className=" col-md-4">
