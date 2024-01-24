@@ -18,6 +18,7 @@ import EventCard from './Components/EventCard';
 import FullEventInfo from './Components/FullEventInfo';
 
 import CampusExecutive from './pages/CampusExecutive.js/CampusExecutive.js';
+import AlumniNetwork from './pages/AlumniNetwork/AlumniNetwork.js';
 export default function App() {
   const [events, setEvents] = useState([]);
 
@@ -50,7 +51,7 @@ export default function App() {
           <Route path='/RegisterStartup' element={<RegisterStartup/>}/>
           <Route path='/RegisterCompany' element={<RegisterCompany/>}/>
           <Route path='/RegisterFaculty' element={<RegisterFaculty/>}/>
-          <Route path='/devWing' element={<Devwing/>}/>
+            <Route path='/devWing' element={<Devwing/>}/>
           <Route path="/events" element={<div className='row'>
         {events.map((event) => {
                 return <div className=" col-md-4">
@@ -62,7 +63,7 @@ export default function App() {
         path="/events/:eventId"
         element={<FullEventInfo events={events} />}
       />
-
+          <Route path='/alumni' element={<AlumniNetwork/>}/>
         </Routes>
   <Footer/>
     </div>
