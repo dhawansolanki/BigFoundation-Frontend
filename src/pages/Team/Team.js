@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../utils/global.css'
 import '../../utils/team.css'
-const Team = () => {
+const Team = (props) => {
   return (
     <>
       {/* <div id="preloader" className="tlp-preloader">
@@ -66,12 +66,12 @@ const Team = () => {
               </ul>
               <div className="container">
                 <div className="breadcrumbs-area">
-                  <h1>Meet The Team</h1>
+                  <h1>{props.mainTitle}</h1>
                   <ul>
                     <li>
                       <a href="/">Home</a>
                     </li>
-                    <li>Team</li>
+                    <li>{props.midTitle}</li>
                   </ul>
                 </div>
               </div>
@@ -83,7 +83,7 @@ const Team = () => {
           <section id="team-wrap-layout1" className="team-wrap-layout1 section-padding-md">
             <div className="container">
               <div className="section-heading heading-dark heading-layout1">
-                <h2 className="heading-main-title">Dedicated Team</h2>
+                <h2 className="heading-main-title">{props.endTitle}</h2>
 
               </div>
               <div className="row">

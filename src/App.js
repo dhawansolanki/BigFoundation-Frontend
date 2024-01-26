@@ -14,6 +14,7 @@ import RegisterStudent from './pages/Register1/RegisterStudents.js';
 import RegisterStartup from './pages/Register1/RegisterStartup.js';
 import RegisterCompany from './pages/Register1/RegisterCompany.js';
 import RegisterFaculty from './pages/Register1/RegisterFaculty.js';
+import Startupmentorpool from './Components/Startupmentorpool.js';
 export default function App() {
   return (
     <div className="App">
@@ -23,7 +24,8 @@ export default function App() {
         <Routes>
 
           <Route path='/' element={<Home/>} exact />
-          <Route path='/team' element={<Team/>}/>
+          <Route path='/Startupmentorpool' element={<Startupmentorpool />}/>
+          <Route path='/team' element={<Team mainTitle='Meet The Team' midTitle='Team' endTitle='Dedicated Team'/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/launchPad' element={<LaunchPad/>}/>
           <Route path='/register' element={<Register/>}/>
