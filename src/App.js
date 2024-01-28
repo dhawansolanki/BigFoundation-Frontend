@@ -54,8 +54,8 @@ export default function App() {
         <Route path='/devWing' element={<Devwing />} />
         <Route path="/events" element={<div className='row'>
           {events.map((event) => {
-            return <div className=" col-md-4">
-              <EventCard key={event.id} event={event} />
+            return <div  key={event.id} className=" col-md-4">
+              <EventCard event={event} />
             </div>
           })}
         </div>} />

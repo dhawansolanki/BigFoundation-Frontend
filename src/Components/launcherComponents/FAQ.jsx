@@ -3,22 +3,22 @@ import React from "react";
 const FAQ = () => {
   return (
     <section
-      class="we-listen-area events-listen-area"
+      className="we-listen-area events-listen-area"
       style={{ paddingTop: "0" }}
     >
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="we-listen-content" style={{ marginTop: "180px" }}>
-              <h3 class="title">FAQ:</h3>
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="we-listen-content" style={{ marginTop: "180px" }}>
+              <h3 className="title">FAQ:</h3>
             </div>
-            <div class="faq-accordion">
+            <div className="faq-accordion">
               <div
-                class="accrodion-grp faq-accrodion"
+                className="accrodion-grp faq-accrodion"
                 data-grp-name="faq-accrodion"
               >
                 <div
-                  class="accrodion active  animated wow fadeInRight animated"
+                  className="accrodion active  animated wow fadeInRight animated"
                   data-wow-duration="1500ms"
                   data-wow-delay="0ms"
                   style={{
@@ -28,9 +28,9 @@ const FAQ = () => {
                     animationName: "fadeInRight",
                   }}
                 >
-                  <div class="accrodion-inner" style={{ paddingTop: "0" }}>
-                    <div class="accrodion-content">
-                      <div class="inner">
+                  <div className="accrodion-inner" style={{ paddingTop: "0" }}>
+                    <div className="accrodion-content">
+                      <div className="inner">
                         <b>
                           <p
                             style={{
@@ -56,7 +56,7 @@ const FAQ = () => {
                   </div>
                 </div>
                 <div
-                  class="accrodion active  animated wow fadeInRight animated"
+                  className="accrodion active  animated wow fadeInRight animated"
                   data-wow-duration="1500ms"
                   data-wow-delay="0ms"
                   style={{
@@ -66,9 +66,9 @@ const FAQ = () => {
                     animationName: "fadeInRight",
                   }}
                 >
-                  <div class="accrodion-inner" style={{ paddingTop: "0" }}>
-                    <div class="accrodion-content">
-                      <div class="inner">
+                  <div className="accrodion-inner" style={{ paddingTop: "0" }}>
+                    <div className="accrodion-content">
+                      <div className="inner">
                         <p
                           style={{
                             fontSize: "20px",
@@ -93,7 +93,7 @@ const FAQ = () => {
                   </div>
                 </div>
                 <div
-                  class="accrodion active  animated wow fadeInRight animated"
+                  className="accrodion active  animated wow fadeInRight animated"
                   data-wow-duration="1500ms"
                   data-wow-delay="0ms"
                   style={{
@@ -103,9 +103,9 @@ const FAQ = () => {
                     animationName: "fadeInRight",
                   }}
                 >
-                  <div class="accrodion-inner" style={{ paddingTop: "0" }}>
-                    <div class="accrodion-content">
-                      <div class="inner">
+                  <div className="accrodion-inner" style={{ paddingTop: "0" }}>
+                    <div className="accrodion-content">
+                      <div className="inner">
                         <p
                           style={{
                             fontSize: "20px",
