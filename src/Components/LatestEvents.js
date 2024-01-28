@@ -69,19 +69,19 @@ const LatestEvents = () => {
         <div className="container">
           <div className="row">
             {events.map((event, index) => (
-              <div class="col-12 col-sm-8 col-md-6 col-lg-4" key={event.img}>
-                <div class="card cart-body" style={{ border: "none" }}>
-                  <div class="card-body" style={{height:"520px"}}>
+              <div className="col-12 col-sm-8 col-md-6 col-lg-4" key={event.img}>
+                <div className="card cart-body" style={{ border: "none" }}>
+                  <div className="card-body" style={{height:"520px"}}>
                     <img
-                      class="card-img-bottom"
+                      className="card-img-bottom"
                       src={event.img}
                       alt="Bologna"
                     />
                     <div style={{cursor:"pointer"}}>
                       <p className="mt-3">{event.date}</p>
-                      <h4 class="card-title mt-4 fw-bolder" style={{letterSpacing:"0.2px"}}>{event.title}</h4>
-                      <p class="card-text">{event.organizedBy}</p>
-                      <a href="#" class="card-link">
+                      <h4 className="card-title mt-4 fw-bolder" style={{letterSpacing:"0.2px"}}>{event.title}</h4>
+                      <p className="card-text">{event.organizedBy}</p>
+                      <a href="/" className="card-link">
                         Read More
                       </a>
                     </div>
