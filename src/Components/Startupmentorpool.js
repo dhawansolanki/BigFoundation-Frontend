@@ -38,16 +38,12 @@ export default function Startupmentorpool() {
     </div>
     <div className="buttons">
     <a href="#">
-        <button type="button" className="btn btn-dark btn-lg btn-block">
+        <button type="button" className="btn btn-dark btn-lg btn-block" style={{ backgroundColor: 'rgb(32, 71, 221)', color: 'white' }}>
           Startup Application→
         </button>
       </a>
       <a href="#">
-        <button
-          type="button"
-          className="btn btn-lg btn-block"
-          style={{ backgroundColor: 'rgb(32, 71, 221)', color: 'white' }}
-        >
+        <button type="button" className="btn btn-lg btn-block" style={{ backgroundColor: 'rgb(32, 71, 221)', color: 'white' }}>
           Mentor Application→
         </button>
       </a>

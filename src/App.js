@@ -45,6 +45,7 @@ export default function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/launchPad' element={<LaunchPad />} />
         <Route path='/register' element={<Register />} />
+        <Route path='/Startupmentorpool' element={<Startupmentorpool />} />
         <Route path='/RegisterStudent' element={<RegisterStudent />} />
         <Route path='/RegisterAlumini' element={<RegisterAlumini />} />
         <Route path='/RegisterStartup' element={<RegisterStartup />} />
