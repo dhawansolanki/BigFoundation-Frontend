@@ -45,12 +45,12 @@ export default function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/launchPad' element={<LaunchPad />} />
         <Route path='/register' element={<Register />} />
-        <Route path='/Startupmentorpool' element={<Startupmentorpool />} />
         <Route path='/RegisterStudent' element={<RegisterStudent />} />
         <Route path='/RegisterAlumini' element={<RegisterAlumini />} />
         <Route path='/RegisterStartup' element={<RegisterStartup />} />
         <Route path='/RegisterCompany' element={<RegisterCompany />} />
         <Route path='/RegisterFaculty' element={<RegisterFaculty />} />
+        <Route path='/Startupmentorpool' element={<Startupmentorpool />} />
         <Route path='/CampusExecutive' element={<CampusExecutive/>}/>
           <Route path='/InternshipPortal' element={<InternshipPortal/>}/>
         <Route path='/devWing' element={<Devwing />} />

@@ -45,6 +45,7 @@ export const Header = () => {
                     <Link onClick={closeDropdown} className="dropdown-item text-nowrap" to="InternshipPortal">Internship Portal</Link>
                     <Link onClick={closeDropdown} className="dropdown-item text-nowrap" to="/CampusExecutive">Campus Executive</Link>
                     <Link onClick={closeDropdown} className="dropdown-item text-nowrap" to="/alumni">Alumni Network</Link>
+                    <Link onClick={closeDropdown} className="dropdown-item text-nowrap" to="/Startupmentorpool">Startup Mentor Pool</Link>
                   </div>
                 </li>
                 <li style={{ paddingRight: '12px' }} className="nav-item">
