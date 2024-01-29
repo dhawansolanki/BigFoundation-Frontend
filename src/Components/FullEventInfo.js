@@ -11,6 +11,7 @@ const FullEventInfo = ({ events }) => {
   }
 
   const formattedDetails = event.resourcePerson ? event.resourcePerson.replace(/\n/g, '<br>') : null;
+  const formattedDescription = event.description.replace(/\n/g,'<br>');
   
   return (
     <>
@@ -25,10 +26,12 @@ const FullEventInfo = ({ events }) => {
                 <li>{event.dateOfStart} to {event.dateOfEnding}</li>
               ) : (
                 <li>{event.dateOfStart}</li>
-              )}
+                )}
+                <br />
+                <li><h6>Mode :  {event.mode}</h6></li>
             </ul>
             <h3 className="my-3">Event Description</h3>
-            <p>{event.description}</p>
+            <p dangerouslySetInnerHTML={{__html:formattedDescription}}></p>
             <ul >
 
             {event.resourcePerson?( <h3 className="my-3">Resouce Person Details</h3>)
