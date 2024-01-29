@@ -14,6 +14,7 @@ import RegisterStudent from './pages/Register1/RegisterStudents.js';
 import RegisterStartup from './pages/Register1/RegisterStartup.js';
 import RegisterCompany from './pages/Register1/RegisterCompany.js';
 import RegisterFaculty from './pages/Register1/RegisterFaculty.js';
+import Startupmentorpool from './Components/Startupmentorpool.js';
 import EventCard from './Components/EventCard';
 import AlumniNetwork from './pages/AlumniNetwork/AlumniNetwork.js'
 import FullEventInfo from './Components/FullEventInfo';
@@ -49,6 +50,7 @@ export default function App() {
         <Route path='/RegisterStartup' element={<RegisterStartup />} />
         <Route path='/RegisterCompany' element={<RegisterCompany />} />
         <Route path='/RegisterFaculty' element={<RegisterFaculty />} />
+        <Route path='/Startupmentorpool' element={<Startupmentorpool />} />
         <Route path='/CampusExecutive' element={<CampusExecutive/>}/>
           <Route path='/InternshipPortal' element={<InternshipPortal/>}/>
         <Route path='/devWing' element={<Devwing />} />

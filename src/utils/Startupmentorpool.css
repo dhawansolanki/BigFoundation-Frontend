@@ -1,0 +1,77 @@
+.Hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .title, .info, .buttons {
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .buttons button {
+    margin-right: 10px;
+  }
+  
+  .buttons button:first-child {
+    margin-left: 0;
+  }
+  
+  .info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .info li {
+    margin-bottom: 5px;
+  }
+  
+  .images {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .left-image,
+  .right-image {
+    width: 48%;
+    max-width: 285px;
+    height: auto;
+  }
+  
+  .left-image {
+    margin-right: 2%;
+  }
+  
+  .right-image {
+    margin-left: 2%;
+  }
+  
+  .reach-num {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .reach-info {
+    color: #555;
+  }
+  
+  .data .col {
+    text-align: center;
+  }
+  
+  .data .col:hover .reach-num {
+    color: #e44d26;
+  }
