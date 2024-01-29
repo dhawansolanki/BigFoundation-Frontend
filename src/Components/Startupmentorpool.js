@@ -37,12 +37,12 @@ export default function Startupmentorpool() {
     </p>
     </div>
     <div className="buttons">
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlsizxKMUltELAMoUwdv8wuw0GSv_aAyUqHywX018J-_ucAQ/viewform?usp=sf_link">
+    <a href="#">
         <button type="button" className="btn btn-dark btn-lg btn-block">
           Startup Application→
         </button>
       </a>
-      <a href="https://forms.gle/xQsffLTWAnuZLKuw6">
+      <a href="#">
         <button
           type="button"
           className="btn btn-lg btn-block"
