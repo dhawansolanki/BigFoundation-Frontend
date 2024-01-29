@@ -1,0 +1,14 @@
+.testimonial-card {
+    background: #f40000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 10px; /* Add some margin between cards */
+  }
+  
+  .testimonial-content {
+    padding: 20px;
+  }
+  
+  /* Add more styles as needed */
+  

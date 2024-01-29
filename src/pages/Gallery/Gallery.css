@@ -1,0 +1,28 @@
+/* src/components/Gallery.css */
+
+.carousel-container {
+    margin: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    font-size: 24px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  
+  .slick-prev {
+    left: 10px;
+  }
+  
+  .slick-next {
+    right: 10px;
+  }
+  

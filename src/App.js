@@ -20,6 +20,7 @@ import FullEventInfo from './Components/FullEventInfo';
 import CampusExecutive from './pages/CampusExecutive.js/CampusExecutive.js'
 import InternshipPortal from './pages/InternshipPortal/InternshipPortal.js'
 import AlumniNetwork from './pages/AlumniNetwork/AlumniNetwork.js';
+import Gallery from './pages/Gallery/Gallery.js';
 export default function App() {
   const [events, setEvents] = useState([]);
 
@@ -53,6 +54,8 @@ export default function App() {
           <Route path='/RegisterCompany' element={<RegisterCompany/>}/>
           <Route path='/RegisterFaculty' element={<RegisterFaculty/>}/>
               <Route path='/CampusExecutive' element={<CampusExecutive/>}/>
+              <Route path='/Gallery' element={<Gallery/>}/>
+
           <Route path='/InternshipPortal' element={<InternshipPortal/>}/>
         <Route path='/devWing' element={<Devwing/>}/>
           <Route path="/events" element={<div className='row'>
