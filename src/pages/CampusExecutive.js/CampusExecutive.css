@@ -2,7 +2,7 @@
     box-sizing: border-box;
   }
   body {
-    margin: 0;
+    
     font-family: var(--bs-body-font-family);
     font-size: var(--bs-body-font-size);
     font-weight: var(--bs-body-font-weight);
@@ -12,6 +12,8 @@
     background-color: var(--bs-body-bg);
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
+
   }
   
   
