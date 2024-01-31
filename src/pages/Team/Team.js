@@ -85,202 +85,269 @@ const Team = (props) => {
               <div className="section-heading heading-dark heading-layout1">
                 <h2 className="heading-main-title">{props.endTitle}</h2>
 
+                  <span><h3>Home Team</h3></span>
               </div>
               <div className="row">
-                <div className="col-lg-4 col-sm-6 col-12 has-animation">
-                  <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-100">
+                <div  className="col-lg-4 col-sm-6 col-12 has-animation">
+                  <div style={{width:'369px'}}  className="translate-bottom-75 opacity-animation transition-150 transition-delay-100">
                     <div className="team-box-layout1">
                       <div className="maks-item animted-bg-wrap">
-                        <span className="animted-bg"></span>
+                        {/* <span className="animted-bg"></span> */}
                         <div className="item-figure">
-                          <img src="/media/team/team1.jpg" alt="Team"/>
+                          <img style={{height:'369px',width:'369px'}} src="/media/team/team1.jpg" alt="Team"/>
                         </div>
-                        <ul className="social-items">
+                        {/* <ul className="social-items">
                           <li><a href="/"><i className="fab fa-facebook-f"></i></a></li>
                           <li><a href="/"><i className="fab fa-twitter"></i></a></li>
                           <li><a href="/"><i className="fab fa-instagram"></i></a></li>
                           <li><a href="/"><i className="fab fa-pinterest-p"></i></a></li>
-                        </ul>
+                        </ul> */}
                       </div>
                       <div className="item-content">
-                        <h3 className="item-title"><a href="/">Michael Jackson</a></h3>
-                        <div className="sub-title">Ul / Ux Designer</div>
+                        <h3 className="item-title"><button style={{backgroundColor:'white',color:'black'}}>Dr. BS Ragini Narayan</button></h3>
+                        {/* <div className="sub-title">Ul / Ux Designer</div> */}
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-4 col-sm-6 col-12 has-animation">
-                  <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-600">
+                  <div style={{width:'369px'}}  className="translate-bottom-75 opacity-animation transition-150 transition-delay-600">
                     <div className="team-box-layout1">
                       <div className="maks-item animted-bg-wrap">
-                        <span className="animted-bg"></span>
+                        {/* <span className="animted-bg"></span> */}
                         <div className="item-figure">
-                          <img src="/media/team/team2.jpg" alt="Team"/>
+                          <img style={{height:'369px',width:'369px'}} src="/media/team/team2.jpg" alt="Team"/>
                         </div>
-                        <ul className="social-items">
+                        {/* <ul className="social-items">
                           <li><a href="/"><i className="fab fa-facebook-f"></i></a></li>
                           <li><a href="/"><i className="fab fa-twitter"></i></a></li>
                           <li><a href="/"><i className="fab fa-instagram"></i></a></li>
                           <li><a href="/"><i className="fab fa-pinterest-p"></i></a></li>
-                        </ul>
+                        </ul> */}
                       </div>
                       <div className="item-content">
-                        <h3 className="item-title"><a href="/">Hattie Bradley</a></h3>
-                        <div className="sub-title">Web Developer</div>
+                        <h3 className="item-title"><button style={{backgroundColor:'white',color:'black'}}>Dr. Dayanand Pai</button></h3>
+                        {/* <div className="sub-title">Web Developer</div> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div  className="col-lg-4 col-sm-6 col-12 has-animation">
+                  <div style={{width:'369px'}}  className="translate-bottom-75 opacity-animation transition-150 transition-delay-1100">
+                    <div  className="team-box-layout1">
+                      <div className="maks-item animted-bg-wrap">
+                        {/* <span  className="animted-bg"></span> */}
+                        <div  className="item-figure">
+                          <img style={{height:'369px',width:'369px',}} src="/media/team/team3.jpg" alt="Team"/>
+                        </div>
+                        {/* <ul className="social-items">
+                          <li><a href="/"><i className="fab fa-facebook-f"></i></a></li>
+                          <li><a href="/"><i className="fab fa-twitter"></i></a></li>
+                          <li><a href="/"><i className="fab fa-instagram"></i></a></li>
+                          <li><a href="/"><i className="fab fa-pinterest-p"></i></a></li>
+                        </ul> */}
+                      </div>
+                      <div className="item-content">
+                        <h3 className="item-title"><button style={{backgroundColor:'white',color:'black'}} >M. Abhishek M. Appaji</button></h3>
+                        {/* <div className="sub-title">Social Marketer</div> */}
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-4 col-sm-6 col-12 has-animation">
-                  <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-1100">
+                  <div style={{width:'369px'}}  className="translate-bottom-75 opacity-animation transition-150 transition-delay-100">
                     <div className="team-box-layout1">
                       <div className="maks-item animted-bg-wrap">
-                        <span className="animted-bg"></span>
+                        {/* <span className="animted-bg"></span> */}
                         <div className="item-figure">
-                          <img src="/media/team/team3.jpg" alt="Team"/>
+                          <img style={{height:'369px',width:'369px'}} src="/media/team/team4.jpg" alt="Team"/>
                         </div>
-                        <ul className="social-items">
+                        {/* <ul className="social-items">
                           <li><a href="/"><i className="fab fa-facebook-f"></i></a></li>
                           <li><a href="/"><i className="fab fa-twitter"></i></a></li>
                           <li><a href="/"><i className="fab fa-instagram"></i></a></li>
                           <li><a href="/"><i className="fab fa-pinterest-p"></i></a></li>
-                        </ul>
+                        </ul> */}
                       </div>
                       <div className="item-content">
-                        <h3 className="item-title"><a href="/">Norman Gordon</a></h3>
-                        <div className="sub-title">Social Marketer</div>
+                        <h3 className="item-title"><button style={{backgroundColor:'white',color:'black'}} >Dr. Muralidhara S.</button></h3>
+                        {/* <div className="sub-title">Consultant</div> */}
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-4 col-sm-6 col-12 has-animation">
-                  <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-100">
+                  <div style={{width:'369px'}}  className="translate-bottom-75 opacity-animation transition-150 transition-delay-600">
                     <div className="team-box-layout1">
                       <div className="maks-item animted-bg-wrap">
-                        <span className="animted-bg"></span>
+                        {/* <span className="animted-bg"></span> */}
                         <div className="item-figure">
-                          <img src="/media/team/team4.jpg" alt="Team"/>
+                          <img style={{height:'369px',width:'369px'}} src="/media/team/team5.jpg" alt="Team"/>
                         </div>
-                        <ul className="social-items">
+                        {/* <ul className="social-items">
                           <li><a href="/"><i className="fab fa-facebook-f"></i></a></li>
                           <li><a href="/"><i className="fab fa-twitter"></i></a></li>
                           <li><a href="/"><i className="fab fa-instagram"></i></a></li>
                           <li><a href="/"><i className="fab fa-pinterest-p"></i></a></li>
-                        </ul>
+                        </ul> */}
                       </div>
                       <div className="item-content">
-                        <h3 className="item-title"><a href="/">Teresa James</a></h3>
-                        <div className="sub-title">Consultant</div>
+                        <h3 className="item-title"><button style={{backgroundColor:'white',color:'black'}} >Aviram Sharma</button></h3>
+                        {/* <div className="sub-title">Consultant</div> */}
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-4 col-sm-6 col-12 has-animation">
-                  <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-600">
+                  <div style={{width:'369px'}}  className="translate-bottom-75 opacity-animation transition-150 transition-delay-1100">
                     <div className="team-box-layout1">
                       <div className="maks-item animted-bg-wrap">
-                        <span className="animted-bg"></span>
+                        {/* <span className="animted-bg"></span> */}
                         <div className="item-figure">
-                          <img src="/media/team/team5.jpg" alt="Team"/>
+                          <img style={{height:'369px',width:'369px'}} src="/media/team/team6.jpg" alt="Team"/>
                         </div>
-                        <ul className="social-items">
+                        {/* <ul className="social-items">
                           <li><a href="/"><i className="fab fa-facebook-f"></i></a></li>
                           <li><a href="/"><i className="fab fa-twitter"></i></a></li>
                           <li><a href="/"><i className="fab fa-instagram"></i></a></li>
                           <li><a href="/"><i className="fab fa-pinterest-p"></i></a></li>
-                        </ul>
+                        </ul> */}
                       </div>
                       <div className="item-content">
-                        <h3 className="item-title"><a href="/">Fiona Endley</a></h3>
-                        <div className="sub-title">Consultant</div>
+                        <h3 className="item-title"><button style={{backgroundColor:'white',color:'black'}} >Col. HS Shankar</button></h3>
+                        {/* <div className="sub-title">Photographer</div> */}
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-4 col-sm-6 col-12 has-animation">
-                  <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-1100">
+                  <div style={{width:'369px'}}  className="translate-bottom-75 opacity-animation transition-150 transition-delay-100">
                     <div className="team-box-layout1">
                       <div className="maks-item animted-bg-wrap">
-                        <span className="animted-bg"></span>
+                        {/* <span className="animted-bg"></span> */}
                         <div className="item-figure">
-                          <img src="/media/team/team6.jpg" alt="Team"/>
+                          <img style={{height:'369px',width:'369px'}} src="/media/team/team7.jpg" alt="Team"/>
                         </div>
-                        <ul className="social-items">
+                        {/* <ul className="social-items">
                           <li><a href="/"><i className="fab fa-facebook-f"></i></a></li>
                           <li><a href="/"><i className="fab fa-twitter"></i></a></li>
                           <li><a href="/"><i className="fab fa-instagram"></i></a></li>
                           <li><a href="/"><i className="fab fa-pinterest-p"></i></a></li>
-                        </ul>
+                        </ul> */}
                       </div>
                       <div className="item-content">
-                        <h3 className="item-title"><a href="/">Tom Knolltonns</a></h3>
-                        <div className="sub-title">Photographer</div>
+                        <h3 className="item-title"><button style={{backgroundColor:'white',color:'black'}}>Dr. Purna Prasad</button></h3>
+                        {/* <div className="sub-title">Designer</div> */}
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-4 col-sm-6 col-12 has-animation">
-                  <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-100">
+                  <div style={{width:'369px'}}  className="translate-bottom-75 opacity-animation transition-150 transition-delay-600">
                     <div className="team-box-layout1">
                       <div className="maks-item animted-bg-wrap">
-                        <span className="animted-bg"></span>
+                        {/* <span className="animted-bg"></span> */}
                         <div className="item-figure">
-                          <img src="/media/team/team7.jpg" alt="Team"/>
+                          <img style={{height:'369px',width:'369px'}} src="/media/team/team8.jpg" alt="Team"/>
                         </div>
-                        <ul className="social-items">
+                        {/* <ul className="social-items">
                           <li><a href="/"><i className="fab fa-facebook-f"></i></a></li>
                           <li><a href="/"><i className="fab fa-twitter"></i></a></li>
                           <li><a href="/"><i className="fab fa-instagram"></i></a></li>
                           <li><a href="/"><i className="fab fa-pinterest-p"></i></a></li>
-                        </ul>
+                        </ul> */}
                       </div>
                       <div className="item-content">
-                        <h3 className="item-title"><a href="/">Billy Vogel</a></h3>
-                        <div className="sub-title">Designer</div>
+                        <h3 className="item-title"><button style={{backgroundColor:'white',color:'black'}} >Dr. A Vijayarajan</button></h3>
+                        {/* <div className="sub-title">Junior Architect</div> */}
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-4 col-sm-6 col-12 has-animation">
-                  <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-600">
+                  <div style={{width:'369px'}}  className="translate-bottom-75 opacity-animation transition-150 transition-delay-1100">
                     <div className="team-box-layout1">
                       <div className="maks-item animted-bg-wrap">
-                        <span className="animted-bg"></span>
+                        {/* <span className="animted-bg"></span> */}
                         <div className="item-figure">
-                          <img src="/media/team/team8.jpg" alt="Team"/>
+                          <img style={{height:'369px',width:'369px'}} src="/media/team/team9.jpg" alt="Team"/>
                         </div>
-                        <ul className="social-items">
+                        {/* <ul className="social-items">
                           <li><a href="/"><i className="fab fa-facebook-f"></i></a></li>
                           <li><a href="/"><i className="fab fa-twitter"></i></a></li>
                           <li><a href="/"><i className="fab fa-instagram"></i></a></li>
                           <li><a href="/"><i className="fab fa-pinterest-p"></i></a></li>
-                        </ul>
+                        </ul> */}
                       </div>
                       <div className="item-content">
-                        <h3 className="item-title"><a href="/">Jane Anderson</a></h3>
-                        <div className="sub-title">Junior Architect</div>
+                        <h3 className="item-title"><button style={{backgroundColor:'white',color:'black'}}>Balakrishna Haridas</button></h3>
+                        {/* <div className="sub-title">Photographer</div> */}
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-4 col-sm-6 col-12 has-animation">
-                  <div className="translate-bottom-75 opacity-animation transition-150 transition-delay-1100">
+                  <div style={{width:'369px'}}  className="translate-bottom-75 opacity-animation transition-150 transition-delay-1100">
                     <div className="team-box-layout1">
                       <div className="maks-item animted-bg-wrap">
-                        <span className="animted-bg"></span>
+                        {/* <span className="animted-bg"></span> */}
                         <div className="item-figure">
-                          <img src="/media/team/team9.jpg" alt="Team"/>
+                          <img style={{height:'369px',width:'369px'}} src="/media/team/team10.jpg" alt="Team"/>
                         </div>
-                        <ul className="social-items">
+                        {/* <ul className="social-items">
                           <li><a href="/"><i className="fab fa-facebook-f"></i></a></li>
                           <li><a href="/"><i className="fab fa-twitter"></i></a></li>
                           <li><a href="/"><i className="fab fa-instagram"></i></a></li>
                           <li><a href="/"><i className="fab fa-pinterest-p"></i></a></li>
-                        </ul>
+                        </ul> */}
                       </div>
                       <div className="item-content">
-                        <h3 className="item-title"><a href="/">Robert Anderson</a></h3>
-                        <div className="sub-title">Photographer</div>
+                        <h3 className="item-title"><button style={{backgroundColor:'white',color:'black'}}>Srinivas jamkhand</button></h3>
+                        {/* <div className="sub-title">Photographer</div> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-sm-6 col-12 has-animation">
+                  <div style={{width:'369px'}}  className="translate-bottom-75 opacity-animation transition-150 transition-delay-1100">
+                    <div className="team-box-layout1">
+                      <div className="maks-item animted-bg-wrap">
+                         {/* <span className="animted-bg"></span> */} 
+                        <div className="item-figure">
+                          <img style={{height:'369px',width:'369px'}} src="/media/team/team11.jpg" alt="Team"/>
+                        </div>
+                         {/* <ul className="social-items">
+                          <li><a href="/"><i className="fab fa-facebook-f"></i></a></li>
+                          <li><a href="/"><i className="fab fa-twitter"></i></a></li>
+                          <li><a href="/"><i className="fab fa-instagram"></i></a></li>
+                          <li><a href="/"><i className="fab fa-pinterest-p"></i></a></li>
+                        </ul> */} 
+                      </div>
+                      <div className="item-content">
+                        <h3 className="item-title"><button style={{backgroundColor:'white',color:'black'}}>Dr. Shyam Vasudev Rao</button></h3>
+                        {/* <div className="sub-title">Photographer</div> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-sm-6 col-12 has-animation">
+                  <div style={{width:'369px'}}  className="translate-bottom-75 opacity-animation transition-150 transition-delay-1100">
+                    <div className="team-box-layout1">
+                      <div className="maks-item animted-bg-wrap">
+                        {/* <span className="animted-bg"></span> */}
+                        <div className="item-figure">
+                          <img style={{height:'369px',width:'369px'}} src="/media/team/team12.jpg" alt="Team"/>
+                        </div>
+                         {/* <ul className="social-items">
+                          <li><a href="/"><i className="fab fa-facebook-f"></i></a></li>
+                          <li><a href="/"><i className="fab fa-twitter"></i></a></li>
+                          <li><a href="/"><i className="fab fa-instagram"></i></a></li>
+                          <li><a href="/"><i className="fab fa-pinterest-p"></i></a></li>
+                        </ul> */} 
+                      </div>
+                      <div className="item-content">
+                        <h3 className="item-title"><button style={{backgroundColor:'white',color:'black'}}>Ravi Ramaswamy</button></h3>
+                        {/* <div className="sub-title">Photographer</div> */}
                       </div>
                     </div>
                   </div>
@@ -289,9 +356,9 @@ const Team = (props) => {
             </div>
           </section>
            
-          <section id="brand-wrap-layout1" className="brand-wrap-layout1 bg-color-accent2">
-            <div className="container">
-              <div className="rc-carousel" data-loop="true" data-items="8" data-margin="30" data-autoplay="false" data-autoplay-timeout="5000" data-smart-speed="700" data-dots="false" data-nav="false" data-nav-speed="false" data-r-x-small="2" data-r-x-small-nav="false"
+          {/* <section id="brand-wrap-layout1" className="brand-wrap-layout1 bg-color-accent2">
+            <div className="container"> 
+               <div className="rc-carousel" data-loop="true" data-items="8" data-margin="30" data-autoplay="false" data-autoplay-timeout="5000" data-smart-speed="700" data-dots="false" data-nav="false" data-nav-speed="false" data-r-x-small="2" data-r-x-small-nav="false"
                 data-r-x-small-dots="false" data-r-x-medium="3" data-r-x-medium-nav="false" data-r-x-medium-dots="false" data-r-small="4" data-r-small-nav="false" data-r-small-dots="false" data-r-medium="4" data-r-medium-nav="false" data-r-medium-dots="false"
                 data-r-large="5" data-r-large-nav="false" data-r-large-dots="false" data-r-extra-large="6" data-r-extra-large-nav="false" data-r-extra-large-dots="false">
                 <div className="brand-box-layout1"><img src="/media/brand/brand1.png" alt="Brand-thumb" /></div>
@@ -301,9 +368,9 @@ const Team = (props) => {
                 <div className="brand-box-layout1"><img src="/media/brand/brand5.png" alt="Brand-thumb" /></div>
                 <div className="brand-box-layout1"><img src="/media/brand/brand6.png" alt="Brand-thumb" /></div>
                 <div className="brand-box-layout1"><img src="/media/brand/brand3.png" alt="Brand-thumb" /></div>
-              </div>
-            </div>
-          </section>
+              </div> 
+             </div>
+          </section> */}
 
           {/* <div id="template-search" className="template-search">
             <button type="button" className="close"></button>
@@ -346,7 +413,7 @@ const Team = (props) => {
                   </li>
                 </ul>
               </nav>
-              <div className="offcanvas-footer">
+              {/* <div className="offcanvas-footer">
                 <div className="item-title">Follow Me</div>
                 <ul className="offcanvas-social">
                   <li><a href="/"><i className="fab fa-facebook-f"></i></a></li>
@@ -356,7 +423,7 @@ const Team = (props) => {
                   <li><a href="/"><i className="fab fa-pinterest"></i></a></li>
                   <li><a href="/"><i className="fas fa-rss"></i></a></li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
 
