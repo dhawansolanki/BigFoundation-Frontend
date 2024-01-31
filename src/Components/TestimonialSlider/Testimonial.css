@@ -1,0 +1,14 @@
+.testimonial-card {
+  background-color: #f8f5f5; /* Set your desired background color */
+  padding: 20px;
+  border-radius: 10px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); Add a subtle box shadow */
+  text-align: center;
+  margin: 50px; /* Add margin for spacing between cards */
+}
+  .testimonial-content {
+    padding: 20px;
+  }
+  
+
+  
