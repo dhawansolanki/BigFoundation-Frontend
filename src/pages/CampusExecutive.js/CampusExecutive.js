@@ -4,13 +4,13 @@ import TestimonialSlider from '../../Components/TestimonialSlider/TestimonialSli
 import { Link } from 'react-router-dom';
 
 const testimonials = [
-    { author: 'John Doe', quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
     { author: 'Jane Doe', quote: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.' },
-    { author: 'John Doe', quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
     { author: 'Jane Doe', quote: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.' },
-    { author: 'John Doe', quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
     { author: 'Jane Doe', quote: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.' },
-    { author: 'John Doe', quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { author: 'Jane Doe', quote: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.' },
+    { author: 'Jane Doe', quote: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.' },
+    { author: 'Jane Doe', quote: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.' },
+    { author: 'Jane Doe', quote: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.' },
     { author: 'Jane Doe', quote: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.' },
     // Add more testimonials as needed
 ];
@@ -130,9 +130,9 @@ const CampusExecutive = () => {
                                 </svg></div>
                                 <div className="px-3">
                                     <h4>Title</h4>
-                                    <p>Erat netus est hendrerit, nullam et quis ad cras porttitor iaculis. Bibendum vulputate cras aenean.</p><a href="#">Learn More<svg className="bi bi-arrow-right" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                                    <p>Erat netus est hendrerit, nullam et quis ad cras porttitor iaculis. Bibendum vulputate cras aenean.</p><Link to="">Learn More<svg className="bi bi-arrow-right" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
                                         <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
-                                    </svg></a>
+                                    </svg></Link>
                                 </div>
                             </div>
                         </div>
@@ -183,7 +183,7 @@ const CampusExecutive = () => {
                     </div>
                     <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3" >
                         <div className="Slider">
-                            <TestimonialSlider style={{ background: '#f0f0f0', padding: '20px', borderRadius: '10px' }} testimonials={testimonials} />
+                            <TestimonialSlider style={{ margin:'23px',background: '#f0f0f0', padding: '20px', borderRadius: '10px' }} testimonials={testimonials} />
                         </div>
                     </div>
                 </div>

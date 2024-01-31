@@ -5,6 +5,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const TestimonialSlider = ({ testimonials }) => {
+  const backgroundColors = ['#f8f8f8', '#e0e0e0', '#dcdcdc'];
   const settings = {
     dots: true,
     infinite: true,
@@ -42,7 +43,7 @@ const TestimonialSlider = ({ testimonials }) => {
   return (
     <Slider {...settings}>
       {testimonials.map((testimonial, index) => (
-        <div key={index}>
+        <div key={index} className="testimonial-card" style={{ backgroundColor: backgroundColors[index % backgroundColors.length] }}>
           <h3>{testimonial.author}</h3>
           <p>{testimonial.quote}</p>
         </div>
