@@ -20,7 +20,6 @@ import AlumniNetwork from './pages/AlumniNetwork/AlumniNetwork.js'
 import FullEventInfo from './Components/FullEventInfo';
 import CampusExecutive from './pages/CampusExecutive.js/CampusExecutive.js';
 import InternshipPortal from './pages/InternshipPortal/InternshipPortal.js'
-import AlumniNetwork from './pages/AlumniNetwork/AlumniNetwork.js';
 import Gallery from './pages/Gallery/Gallery.js';
 export default function App() {
   const [events, setEvents] = useState([]);
