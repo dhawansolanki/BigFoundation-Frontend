@@ -47,7 +47,7 @@ html,body{
     gap: 2rem;
 }
 .btn{
-    max-width: 30%;
+    max-width: 100%;
     display: flex;
     border: 2px solid rgb(59, 95, 98);
     background: rgb(30, 29, 29);

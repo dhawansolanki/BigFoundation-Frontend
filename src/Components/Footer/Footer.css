@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-*,
+/* *,
 *::before,
 *::after {
 	box-sizing: border-box;
@@ -9,7 +9,7 @@
 * {
 	margin: 0;
 	padding: 0;
-}
+} */
 
 body {
 	line-height: 1.5;
@@ -22,15 +22,15 @@ body {
     margin-top: 50px;
 }
 
-.container {
+.container-row {
+	
 	max-width: 1170px;
 	margin: auto;
-}
-
-.row {
 	display: flex;
 	flex-wrap: wrap;
+	flex-direction: row;
 }
+
 
 .newsletter-container {
     font-family: Arial, sans-serif; 
@@ -138,9 +138,3 @@ ul {
 		width: 100%;
 	}
 }
-
-
-
-
-
-

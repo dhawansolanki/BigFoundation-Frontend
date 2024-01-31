@@ -39,12 +39,13 @@ export const Header = () => {
                   <Link className="nav-link text-center" to="/events"
                   >&nbsp;<b>Events</b></Link>
                 </li>
-                <li style={{ paddingRight: '12px' }} className="nav-item dropdown rounded">
+                <li style={{ paddingRight: '12px' }} className="nav-item dropdown rounded nav-dropdown-link">
                   <button style={{ maxWidth: '200px'}} onClick={closeDropdown} className="nav-link ">&nbsp;<b>Facilities</b></button>
                   <div style={{ right: '0', maxWidth: '200px' }} className="dropdown-menu position-absolute dropdown-menu-end" aria-labelledby="navbarDropdown"> 
                     <Link onClick={closeDropdown} className="dropdown-item text-nowrap" to="InternshipPortal">Internship Portal</Link>
                     <Link onClick={closeDropdown} className="dropdown-item text-nowrap" to="/CampusExecutive">Campus Executive</Link>
                     <Link onClick={closeDropdown} className="dropdown-item text-nowrap" to="/alumni">Alumni Network</Link>
+                    <Link onClick={closeDropdown} className="dropdown-item text-nowrap" to="/Startupmentorpool">Startup Mentor Pool</Link>
                   </div>
                 </li>
                 <li style={{ paddingRight: '12px' }} className="nav-item">
@@ -59,8 +60,8 @@ export const Header = () => {
                 <li style={{ paddingRight: '12px' }} className="nav-item pb-2 pb-md-0">
                   <Link className="nav-link text-nowrap text-center" to="/contact">&nbsp;<b>Contact</b></Link>
                 </li>
-                <li style={{ paddingRight: '12px', backgroundColor: '#5935f7' }} className="nav-item dropdown rounded">
-                  <button style={{ color: 'white' , right: '0', maxWidth: '200px'}} onClick={closeDropdown} className="nav-link ">&nbsp;<b>Register</b></button>
+                <li style={{ paddingRight: '12px', backgroundColor: '#5935f7' }} className="nav-item dropdown rounded nav-dropdown-link">
+                  <button style={{  color: 'white' , right: '0', maxWidth: '200px'}} onClick={closeDropdown} className="nav-link ">&nbsp;<b>Register</b></button>
                   <div style={{ right: '0', maxWidth: '200px' }} className="dropdown-menu position-absolute dropdown-menu-end" aria-labelledby="navbarDropdown"> 
                     <Link onClick={closeDropdown} className="dropdown-item text-nowrap" to="/RegisterStudent">Students</Link>
                     <Link onClick={closeDropdown} className="dropdown-item text-nowrap" to="/RegisterAlumini">Alumini</Link>

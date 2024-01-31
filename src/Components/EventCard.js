@@ -6,12 +6,12 @@ const EventCard = ({ event }) => {
     
       <div>
         <div className="card" style={{ margin: '15px', padding: '10px', textAlign: 'center' }}>
-          <img src={event.urlToImage} className="card-img-top" alt={event.title} />
+          <img style={{height:'250px'}} src={event.urlToImage} className="card-img-top" alt={event.title} />
           <div className="card-body">
             <h5 className="card-title">{event.title}</h5>
-            <p className="card-text" >{event.description.slice(0, 80)}...</p>
+            <p className="card-text" >{event.description.slice(0, 70)}...</p>
             <Link to={`/events/${event.id}`}>
-              <button className="btn btn-dark">View Details</button>
+              <button className="btn-dark">View Details</button>
             </Link>
           </div>
         </div>

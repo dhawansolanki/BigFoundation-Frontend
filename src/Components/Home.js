@@ -122,7 +122,7 @@ export default function Home() {
                                     <li className="animated-figure">
                                         <div className="translate-left-75 opacity-animation transition-200 transition-delay-500">
                                             <div className="mask-image">
-                                                <img src="about_1.png" alt="About"/>
+                                                <img src="about_6.jpeg" style={{ marginLeft: '150px', marginBottom:'-10px', width: '700px', height: '600px' }} alt="About"/>
                                                 {/* <a className="play-btn popup-youtube" href="https://www.youtube.com/watch?v=xf34GCMVAoY">
                                                     <div className="item-icon"><i className="fas fa-play"></i></div>
                                                 </a> */}

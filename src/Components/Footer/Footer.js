@@ -3,8 +3,9 @@ import './Footer.css'; // Assuming you have a Footer.css for styling
 
 const Footer = () => {
   return (
+    <>
     <footer className="footer">
-      <div className="container row">
+      <div className="container-row">
         <div className="footer-col">
           <h4>Contact Us</h4>
           <p>BigFoundation : BMS College of Engineering Bull Temple Road, Basavanagudi, Bangalore- 560019</p>
@@ -16,7 +17,7 @@ const Footer = () => {
         <div className="footer-col">
           <h4>Important</h4>
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="/team">Events</a></li>
             <li><a href="#">Blogs</a></li>
             <li><a href="/launchpad">Facilities</a></li>
@@ -42,6 +43,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+    </>
   );
 };
 

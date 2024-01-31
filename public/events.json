@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Iplanet",
       "description": "Discover more about iOS App Development at CIIE BMSCE and AATCE(Apple Authorized Training Centre for Education)'s collaborative orientation. Led by industry experts from iPlanet Education, the session introduces beginners to the dynamic world of iOS development.",
-      "urlToImage": "https://media.licdn.com/dms/image/D5622AQHLSikpqJPIig/feedshare-shrink_1280/0/1703736808821?e=1709164800&v=beta&t=fmL-zE_F8iewsnpY6KHmguvLGZUczczj0R4ClpPdXtM",
+      "mode":"Offline","urlToImage": "/events_img/iplanet.jpg",
        "resourcePerson":"Mr Shibu George Senior \nTechnocommercial Manager,\nApple Mobility Group \n\nMr Aaftab Ahmed,\nApple Certified iOS Trainer & Apple Certified Teacher,\niPlanet Education\n\nMr Kushagra Gupta\nApple Certified Trainer, \niPlanet Education",
        "dateOfStart":"28/12/2022",
        "dateOfEnding":null
@@ -15,19 +15,75 @@
       "id": 2,
       "title": "Startup launchpad cohort -2 - pitch day ",
       "description": "The Startup Launchpad Cohort is an immersive program designed to nurture and propel emerging businesses to success. Handpicked participants embark on a transformative journey, benefiting from mentorship, resources, and strategic guidance. This dynamic environment fosters innovation, collaboration, and accelerated growth, shaping the future leaders of the entrepreneurial landscape.",
-      "urlToImage": "https://media.licdn.com/dms/image/D5622AQHLSikpqJPIig/feedshare-shrink_1280/0/1703736808821?e=1709164800&v=beta&t=fmL-zE_F8iewsnpY6KHmguvLGZUczczj0R4ClpPdXtM", 
+      "mode":"Offline","urlToImage": "/events_img/cohort.jpg", 
       "resoucePerson":null,
       "dateOfStart":null,
       "dateOfEnding":null
     },
     {
       "id": 3,
-      "title": "Pitch-er Perfect",
-      "description": "An engaging and competitive pitching event convened, featuring participants from diverse branches presenting their entrepreneurial concepts with both enthusiasm and depth.",
-      "urlToImage": "https://media.licdn.com/dms/image/D5622AQHLSikpqJPIig/feedshare-shrink_1280/0/1703736808821?e=1709164800&v=beta&t=fmL-zE_F8iewsnpY6KHmguvLGZUczczj0R4ClpPdXtM", 
+      "title": "Pitcher Perfect",
+      "description": "The event spanned two days and comprised four rounds: icebreaker, elevator pitch, pitch deck, and a final pitch round. With thirteen competitive teams, the top three were awarded prizes, making it a successful and energetic event. The primary goal was to inspire students toward unconventional entrepreneurial careers and assess their ability to tackle real-world challenges.",
+      "mode":"Offline","urlToImage": "/events_img/pitcher_perfect.jpg", 
       "resourcePerson":"CS Ankita Jaiswal \nCo-Founder: Advisorate\n Linked-In: https://www.linkedin.com/in/cs-ankita-jaiswal-726a121b1",
       "dateOfStart":"25/12/2023",
       "dateOfEnding":"26/12/2023"
-    }    
+    }, 
+    {
+      "id": 4,
+      "title": "Digital Marketing 101 workshop",
+      "description": "Our Alumni Sai Sharan, Digital Marketing Manager at Frontrow hosted the event. Everyone learned how to run a Facebook ad and how to make use of the resources available across the internet to upskill and master. Great exposure to the startup ecosystem was built by providing several internship opportunities as well for the same.",
+      "mode":"Online","urlToImage": "/events_img/digital_marketing_101.jpg", 
+      "resourcePerson":null,
+      "dateOfStart":"22nd November ,2022",
+      "dateOfEnding":null
+      
+      
+    }, 
+    {
+      "id": 5,
+      "title": "Digithon - Phase Shift 2021",
+      "description": "As the event unfolded and ideas were brainstormed we had someone solve the problem of interactive teaching, a safe way to travel, reducing the time for pickup in our canteens, and many more. The winners of the event were given a chance to incubate at BMSCE and carry on working towards their idea.\nWith the help of the mentoring and guidance provided by the mentors :Bhumika Satpathy(SDE at Flipkart), Tapas Adhikary(Sr.Manager at Micro Focus), Manvi Tyagi(SWE at Twitter), and Chriag S Rao(Founder/Trustee Team Hasiru) to the 8 teams they were ready to pitch their sustainable ideas.\nOn the day of pitching we had our panelists: Karan Baweja(Co-Founder of Cosmos), Swarup P C (Engineering Manager at Amazon), and Muthukumar Kandasamy(GPM at Flipkart) were excited to hear about all the wonderful ideas. After some ample discussion between the panelists, they announced the winners: Sherlock, Code Glitters, Foodies.",
+      "mode":"Online","urlToImage": "/events_img/digithon_2021.jpg", 
+      "resourcePerson":null,
+      "dateOfStart":"26th November ,2021",
+      "dateOfEnding":"27th November ,2021"
+    }, 
+    {
+      "id": 6,
+      "title": "Idea Summit : Where Your Ideas Matter",
+      "description": "This is a workshop where you get to pick your ideas or CIIE  help them choose an idea they are most enthusiastic about and help  play with words to come up with the perfect pitch. Well, the competition at the end of the workshop has put the newly acquired pitching skills to the test.",
+      "mode":"Online","urlToImage": "/events_img/idea_summit.jpg", 
+      "resourcePerson":null,
+      "dateOfStart":"19th March ,2022",
+      "dateOfEnding":"20th March ,2022"
+    },
+    {
+      "id": 7,
+      "title": "Innochamp 2022 by Synopsys",
+      "description": "Building Smart Cities leading to a Cleaner and Healthier Planet! Domain: Automobile, Healthcare, Transportation, CyberSecurity, Biomedical applications Technology: IoT, AI/ML, Cloud, Semiconductors.",
+      "mode":"Online","urlToImage": "/events_img/inno_champ.jpg", 
+      "resourcePerson":null,
+      "dateOfStart":"15th January ,2022",
+      "dateOfEnding":"5th February, 2022"
+    },
+    {
+      "id": 8,
+      "title": "Innovator Incubator summit",
+      "description": "Innovator-Incubator Summit facilitated collaboration on 10+ ideas, offering guidance from CIIE advisors and connecting each concept with alumni mentors. Four startups emerged successfully incubated, marking a milestone in cultivating a dynamic startup ecosystem at BMSCE.",
+      "mode":"Online","urlToImage": "/events_img/innovator_incubator.jpg", 
+      "resourcePerson":null,
+      "dateOfStart":"4th July ,2021",
+      "dateOfEnding":"1st August,2021"
+    },
+    {
+      "id": 9 ,
+      "title": "Know the founder series",
+      "description": "BMSCE CIIE and BMSCE IIC present Know the Founder, a weekly event with accomplished BMSCE alumni. Each session offers valuable insights for aspiring entrepreneurs, providing guidance and lessons on navigating the entrepreneurial journey with the same resources available to current students.",
+      "mode":"Online","urlToImage": "/events_img/know_the_founder.jpg", 
+      "resourcePerson":null,
+      "dateOfStart":"8th January 2022 (every Saturday)",
+      "dateOfEnding":"5th February, 2022"
+    }
   ]
 }
